@@ -3,7 +3,7 @@
 #+AUTHOR: Richard Davis
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
-#+INCLUDE: ./header.org
+#+INCLUDE: ../resources/header.org
 
 * About
 

@@ -1,4 +1,0 @@
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: num:nil ^:{}
-
-| [[file:./index.org][Home]] | [[file:./events.org][Events]] | [[file:./press.org][Press]] | [[file:./listening.org][Listening]] |
