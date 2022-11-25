@@ -1,0 +1,25 @@
+#+TITLE: Richard Davis, Composer
+#+SUBTITLE: Press
+#+AUTHOR: Richard Davis
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+#+INCLUDE: ./header.org
+
+* Bio
+:PROPERTIES:
+:CUSTOM_ID: press-bio
+:END:
+
+Richard Davis is a composer, whose primary interests are intertextuality and computer-assisted composition, and a violist, whose main focus is contemporary music performance.
+Richard is from Westford, Massachusetts in the US and currently resides in Montreal.
+
+Recently, Richard completed his work as the first student composer in residence with the McGill vocal studio, culminating in the 2022 world premiere of his operatic work fātō profugī, which presents an intertextual commentary on the original Dido and Aeneas story from Vergil’s Aeneid.
+
+Following the conclusion of this project, Richard is also preparing to complete his collaboration with violist Marilou Lepage on his upcoming piece "Variations on an Excerpt," for solo viola and live electronics.
+
+Furthermore, in 2021, "Perpetuum," another of Richard’s works for soprano and small ensemble and composed after text by Celine Wang, had its premiere.
+Additionally, two of his other works—his multi-movement duo for flute and clarinet, Divide, and his Two Pieces for Piano—were recorded that same year.
+On the performance side of things, Richard has premiered numerous works by living composers, including Omer Barash’s /OTOT/, Philippe Macnab-Séguin’s /Tehom/, and Kit Vaughan Soden’s /Overture/ with the McGill Symphony Orchestra, and Marilou Buron’s /Qui croire de soi?/ with McGill’s Contemporary Music Ensemble.
+
+Richard Davis has a high school diploma from Westford Academy, and is currently a
+B.Mus. candidate at the Schulich School of Music of McGill University, where he is studying music composition under Professor Sean Ferguson and viola performance under Professor André Roy.
