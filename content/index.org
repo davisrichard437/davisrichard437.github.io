@@ -10,18 +10,19 @@
 Hello!
 My name is Richard Davis.
 I am a Montreal- and Massachusetts-based composer, viola performer, and teacher.
-My primary musical interests are intertextuality, live electronics, vocal or vocal-emulating music, and computer-assisted composition.
+My primary compositional interests are intertextuality, live electronics, vocal or vocal-emulating music, and computer-assisted composition.
+With viola, I specialize in contemporary music performance.
 
 * Links
 
 ** Listening
 
-- [[https://youtube.com/@davisrichard437][YouTube Channel]]
-- [[https://soundcloud.com/richard-davis-333277866][SoundCloud]]
+#+INCLUDE: ./listening.org::#listening-links :only-contents t
 
 ** Miscellaneous
 
 Some might be interested in my [[https://gitlab.com/davisrichard437][GitLab]], which has a number of Python scripts I've written in the past for various computer-assisted composition tasks.
+I also have a [[https://github.com/davisrichard437][GitHub]], but this is secondary and primarily for collaboration with others.
 
 * Contact
 

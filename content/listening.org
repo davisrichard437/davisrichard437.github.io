@@ -27,5 +27,5 @@
 :CUSTOM_ID: listening-links
 :END:
 
+- [[https://youtube.com/@davisrichard437][YouTube Channel]]
 - [[https://soundcloud.com/richard-davis-333277866][SoundCloud]]
-- [[https://www.youtube.com/channel/UCb2QRli03zTU4ntG7BK8rPA][YouTube Channel]]
