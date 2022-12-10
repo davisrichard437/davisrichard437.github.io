@@ -1,0 +1,31 @@
+#+TITLE: Richard Davis, Composer
+#+SUBTITLE: Listening
+#+AUTHOR: Richard Davis
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+#+INCLUDE: ./header.org
+
+* Highlights
+:PROPERTIES:
+:CUSTOM_ID: listening-highlights
+:END:
+
+** fātō profugī
+
+#+begin_export html
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1265920429&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/richard-davis-333277866" title="Richard Davis" target="_blank" style="color: #cccccc; text-decoration: none;">Richard Davis</a> · <a href="https://soundcloud.com/richard-davis-333277866/fato-profugi" title="fātō profugī" target="_blank" style="color: #cccccc; text-decoration: none;">fātō profugī</a></div>
+#+end_export
+
+** Variations on an Excerpt
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wyK7qbJSS8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+* Links
+:PROPERTIES:
+:CUSTOM_ID: listening-links
+:END:
+
+- [[https://youtube.com/@davisrichard437][YouTube Channel]]
+- [[https://soundcloud.com/richard-davis-333277866][SoundCloud]]

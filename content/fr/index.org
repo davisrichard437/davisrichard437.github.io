@@ -1,0 +1,29 @@
+#+TITLE: Richard Davis, Composer
+#+SUBTITLE: Home
+#+AUTHOR: Richard Davis
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+#+INCLUDE: ./header.org
+
+* About
+
+Hello!
+My name is Richard Davis.
+I am a Montreal- and Massachusetts-based composer, viola performer, and teacher.
+My primary compositional interests are intertextuality, live electronics, vocal or vocal-emulating music, and computer-assisted composition.
+With viola, I specialize in contemporary music performance.
+
+* Links
+
+** Listening
+
+#+INCLUDE: ./listening.org::#listening-links :only-contents t
+
+** Miscellaneous
+
+Some might be interested in my [[https://gitlab.com/davisrichard437][GitLab]], which has a number of Python scripts I've written in the past for various computer-assisted composition tasks.
+I also have a [[https://github.com/davisrichard437][GitHub]], but this is secondary and primarily for collaboration with others.
+
+* Contact
+
+Send me an email at [[mailto:davisrichard437@gmail.com][davisrichard437@gmail.com]]!
