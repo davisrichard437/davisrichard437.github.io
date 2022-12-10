@@ -1,1 +1,7 @@
+#+BIND: org-html-validation-link nil
+#+BIND: org-html-head-include-scripts nil
+#+BIND: org-html-head-include-default-style nil
+#+BIND: org-html-preamble nil
+#+BIND: org-html-postamble nil
+#+OPTIONS: creator:nil date:nil author:nil
 #+HTML: <meta http-equiv="Refresh" content="0; url='https://davisrichard437.github.io/en/'" />
