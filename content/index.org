@@ -1,7 +1,13 @@
+#+TITLE: Redirect
 #+BIND: org-html-validation-link nil
 #+BIND: org-html-head-include-scripts nil
 #+BIND: org-html-head-include-default-style nil
 #+BIND: org-html-preamble nil
 #+BIND: org-html-postamble nil
 #+OPTIONS: creator:nil date:nil author:nil
-#+HTML: <meta http-equiv="Refresh" content="0; url='https://davisrichard437.github.io/en/'" />
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+HTML_HEAD: <meta http-equiv="Refresh" content="0; url='https://davisrichard437.github.io/en/'" />
+
+If you are not redirected in five seconds, click [[file:./en/index.org][here]].
+
+Si vous n'êtes pas redirigé dans cinq secondes, cliquez [[file:./fr/index.org][ici]].
