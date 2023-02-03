@@ -10,7 +10,13 @@
 :CUSTOM_ID: events-upcoming
 :END:
 
-Nothing right now!
+** MASC Concert <2023-03-19 Sun 20:00>
+
+Alexandar Ortins will be performing my solo clarinet work "One need not be a Chamber" at the McGill Association of Student Composers' [[https://www.mcgill.ca/music/channels/event/mcgill-association-student-composers-concert-342228][Winter Concert]].
+
+** DCS Concert <2023-04-14 Fri>
+
+Daniel Claxton will be performing my work "Till this Moment" for solo vocal and electronics at the upcoming Digital Composition Studio's Class Concert.
 
 * Past
 
