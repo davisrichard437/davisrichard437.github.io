@@ -10,16 +10,113 @@
 :CUSTOM_ID: listening-highlights
 :END:
 
-** fātō profugī
+** fātō profugī (2021)
+
+fātō profugī (refugees from fate) is an opera scene that sets excerpts of the original Dido and Aeneas story from Vergil’s Aeneid in their original classical Latin.
+fātō profugī makes reference to various other musical works that are either related to, resonant with, or descended from this text, including Carmen by Georges Bizet, “Lamento della Ninfa” by Claudio Monteverdi, my own "Lament" for string quartet, and Dido and Aeneas by Henry Purcell.
+References to these works and to the networks of meaning associated with them create a musical discourse which enables a contemporary reevaluation of this ancient text (and, by extension, other related texts).
+
+Recorded April 22, 2022:
+- Dīdō: Gabrielle Coté-Picard
+- Aenēās: Wesley Harrison
+- Piano: Yan-Ru Chen
+- Mix: Joshua Stanberry
 
 #+begin_export html
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1265920429&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/richard-davis-333277866" title="Richard Davis" target="_blank" style="color: #cccccc; text-decoration: none;">Richard Davis</a> · <a href="https://soundcloud.com/richard-davis-333277866/fato-profugi" title="fātō profugī" target="_blank" style="color: #cccccc; text-decoration: none;">fātō profugī</a></div>
 #+end_export
 
-** Variations on an Excerpt
+** Variations on an Excerpt (2022)
+
+The work "Variations on an Excerpt" presents an unconventional take on the theme and variations genre, reversing its traditional form factor.
+Rather than a theme followed by discrete, increasingly remote variations, "Variations on an Excerpt" presents a continuous set of variations that zoom in on the theme.
+The theme itself is the first section of the famous orchestral excerpt for viola from the second movement of Beethoven's Symphony no. 5 (also a theme and variations).
+The music preceding this theme explores alternative techniques of variation to those used by Beethoven, favoring those derived from an electronic idiom of composing rather than Beethoven's symbolic and instrumental processes.
+
+Recorded May 3, 2022 by violist Marilou Lepage.
 
 #+begin_export html
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wyK7qbJSS8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+* Composition
+
+** Divide (2021)
+
+/Divide/ is a three-movement work for flute/clarinet duo that, as its name suggests, explores musical contrasts and various ways of navigating them, both within movements and between them.
+
+Movements 1 and 2 were played by Jayden Lee on flute and Alexander Ortins on clarinet, and were recorded by Monika Azmanska on December 5, 2021.
+Movement 3 was performed by Nicole Carbotte on flute and Elia Foster on clarinet, and was recorded by Priam David on April 29, 2022.
+
+#+begin_export html
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1503157465&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/richard-davis-333277866" title="Richard Davis" target="_blank" style="color: #cccccc; text-decoration: none;">Richard Davis</a> · <a href="https://soundcloud.com/richard-davis-333277866/sets/divide" title="Divide" target="_blank" style="color: #cccccc; text-decoration: none;">Divide</a></div>
+#+end_export
+
+** Perpetuum (2021)
+
+"Perpetuum" is a work for small ensemble and voice which sets the poem of the same name by Celine Wang.
+
+#+begin_verse
+Here comes the bride
+For all eternity to come
+With her unbroken vow as scripture
+And so on it goes, as long as we shall live:
+
+And I will give you constance and I will give you motion
+And I will give you major and I will give you minor
+And I will give you cosmos and I will give you crumbles
+Fidelity
+Fidelity
+Fidelity
+
+And I will give you freedom and I will give you burden
+And I will give you glory and I will give you solace
+And I will give you maidens and I will give you martyrs
+Excelsior,
+Excelsior,
+Excelsior!
+
+And I will give you presence and I will give you vastness
+And I will give you rhythm and I will give you stasis
+And I will give you reason and I will give you ardor
+Perpetuum
+Perpetuum
+Perpetuum...
+#+end_verse
+
+Performed November 21, 2021:
+- Vocals: Natalia McKenna
+- Violin: Celia Morin
+- Bass Clarinet: Gabriella Janssen
+- Marimba: Rahul Vanamali
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s6qXjExMSBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+** Two Pieces for Piano (2020)
+
+/Two Pieces for Piano/ is a two-movement work for solo piano that presents grotesque interpretations of two overarching genres: a lullaby that one cannot fall asleep to, and a dance that one cannot dance to.
+The lullaby, rather, seeks to tell the story of a lullaby: the melody, no matter how hard it may try to resist, cannot help but eventually be enveloped by the reliable embrace of the harmony.
+And the second movement presents a dance between two groups: one energetic and brazen, the other more reserved and lyrical.
+The two present their respective portions and work to resolve the disconnect.
+
+Recorded December 5, 2020:
+- Piano: Nicholas Ma
+- Mix: Andy Le
+
+#+begin_export html
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1246904017&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/richard-davis-333277866" title="Richard Davis" target="_blank" style="color: #cccccc; text-decoration: none;">Richard Davis</a> · <a href="https://soundcloud.com/richard-davis-333277866/sets/two-pieces-for-piano" title="Two Pieces for Piano" target="_blank" style="color: #cccccc; text-decoration: none;">Two Pieces for Piano</a></div>
+#+end_export
+
+* Performance
+
+** Vocalise and Fantasia for Viola -- Daniel Claxton
+
+Performed November 20, 2022 at the Fall Concert for the McGill Association of Student Composers.
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2DQ5S-5k_jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 #+end_export
 
 * Links
