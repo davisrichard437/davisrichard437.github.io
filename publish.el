@@ -30,6 +30,9 @@
              :publishing-function #'org-html-publish-to-html
              :section-numbers nil)))
 
+(setq org-safe-remote-resources
+      '("\\`https://fniessen\\.github\\.io/org-html-themes/org/theme-readtheorg\\.setup\\'"))
+
 (delete-directory "./public" t)
 (mkdir "./public")
 (org-publish-all t)
