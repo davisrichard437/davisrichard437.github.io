@@ -14,7 +14,11 @@
 
 Dani Claxton will be performing my work "Till this Moment" for solo vocalist and electronics at the upcoming Digital Composition Studio's Class Concert.
 
-* Past
+"Till This Moment" is a piece for voice and live electronics that adapts the pivotal chapters of Jane Austen's Pride and Prejudice---Mr. Darcy's letter and Elizabeth Bennet's reaction.
+In this piece, Elizabeth is confronted with information incompatible with her current worldview, first denying it with the whole force of her being, then considering it more carefully, and finally understanding its truth, ultimately leaving her a transformed and improved person.
+The mixed format provides a texturally homogeneous dichotomy between Elizabeth's conscious will, as presented by the performer, and the forces exerted upon the former by her character, her peers, and the narrative---i.e. her soul---reflected within the electronics.
+
+* Recent
 
 ** MASC Concert <2023-03-19 Sun 20:00>
 
@@ -23,6 +27,3 @@ My 2019 solo clarinet work "One need not be a Chamber" will be performed by clar
 "One need not be a Chamber" is a work for solo clarinet and optional narrator, based on the Emily Dickinson poem "One need not be a Chamber---to be Haunted---".
 The music maintains an intimate, line-by-line relationship with the poem, translating various motifs and features of the text into leitmotifs---in the loosest sense---that accompany the emotional arc of Dickinson's poem.
 
-** MASC Concert <2022-11-19 Sat 20:00>
-
-I'll be performing Daniel Claxton's "Vocalise and Fantasia for Viola" at the McGill Association of Student Composers' [[https://www.mcgill.ca/music/channels/event/mcgill-association-student-composers-concert-341592][Fall Concert]].
