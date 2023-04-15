@@ -10,15 +10,17 @@
 :CUSTOM_ID: events-upcoming
 :END:
 
-** DCS Concert <2023-04-14 Fri>
+Graduation soon!
+
+* Recent
+
+** DCS Concert <2023-04-14 Fri 15:00>
 
 Dani Claxton will be performing my work "Till this Moment" for solo vocalist and electronics at the upcoming Digital Composition Studio's Class Concert.
 
-"Till This Moment" is a piece for voice and live electronics that adapts the pivotal chapters of Jane Austen's Pride and Prejudice---Mr. Darcy's letter and Elizabeth Bennet's reaction.
-In this piece, Elizabeth is confronted with information incompatible with her current worldview, first denying it with the whole force of her being, then considering it more carefully, and finally understanding its truth, ultimately leaving her a transformed and improved person.
-The mixed format provides a texturally homogeneous dichotomy between Elizabeth's conscious will, as presented by the performer, and the forces exerted upon the former by her character, her peers, and the narrative---i.e. her soul---reflected within the electronics.
-
-* Recent
+"Till This Moment" is a piece for voice and live electronics that adapts the pivotal chapters of Jane Austen's Pride and Prejudice---Mr. Darcy's letter and Elizabeth Bennet's reaction to it.
+In reading this letter, Elizabeth is confronted with information incompatible with her current worldview, first denying its contents, then considering it more carefully, and finally understanding its truth, ultimately leaving her a transformed and improved person.
+The mixed format enables the construction of a dramatic dichotomy between representations of Elizabeth's conscious will, as presented by the performer, and those of the forces exerted upon her by her character, her peers, and the narrative---in a word, her soul---which are reflected within the electronics.
 
 ** MASC Concert <2023-03-19 Sun 20:00>
 
