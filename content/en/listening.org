@@ -10,6 +10,20 @@
 :CUSTOM_ID: listening-highlights
 :END:
 
+** Till This Moment (2023)
+
+"Till This Moment" is a piece for voice and live electronics that adapts the pivotal chapters of Jane Austen's Pride and Prejudice---Mr. Darcy's letter and Elizabeth Bennet's reaction to it.
+In reading this letter, Elizabeth is confronted with information incompatible with her current worldview, first denying its contents, then considering it more carefully, and finally understanding its truth, ultimately leaving her a transformed and improved person.
+The mixed format enables the construction of a dramatic dichotomy between representations of Elizabeth's conscious will, as presented by the performer, and those of the forces exerted upon her by her character, her peers, and the narrative---in a word, her soul---which are reflected within the electronics. 
+
+Vocalist: Dani Claxton
+
+Performed Friday, April 14, 2023 at the class concert for MUCO 542.
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4WIBP1mQM5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
 ** fātō profugī (2021)
 
 fātō profugī (refugees from fate) is an opera scene that sets excerpts of the original Dido and Aeneas story from Vergil’s Aeneid in their original classical Latin.
@@ -26,6 +40,8 @@ Recorded April 22, 2022:
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1265920429&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/richard-davis-333277866" title="Richard Davis" target="_blank" style="color: #cccccc; text-decoration: none;">Richard Davis</a> · <a href="https://soundcloud.com/richard-davis-333277866/fato-profugi" title="fātō profugī" target="_blank" style="color: #cccccc; text-decoration: none;">fātō profugī</a></div>
 #+end_export
 
+* Composition
+
 ** Variations on an Excerpt (2022)
 
 The work "Variations on an Excerpt" presents an unconventional take on the theme and variations genre, reversing its traditional form factor.
@@ -38,8 +54,6 @@ Recorded May 3, 2022 by violist Marilou Lepage.
 #+begin_export html
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wyK7qbJSS8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #+end_export
-
-* Composition
 
 ** Divide (2021)
 
