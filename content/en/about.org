@@ -1,5 +1,5 @@
 #+TITLE: Richard Davis, Composer
-#+SUBTITLE: Press
+#+SUBTITLE: About
 #+AUTHOR: Richard Davis
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
