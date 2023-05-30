@@ -21,26 +21,6 @@
 
 (org-babel-lob-ingest "./content/variables.org")
 
-(defvar yt-iframe-format
-  (concat "<div class=\"video\">"
-          "  <iframe src=\"https://www.youtube-nocookie.com/embed/%s\" allowfullscreen></iframe>"
-          "</div>"))
-
-(defun my/embed-video (video-id)
-  (format yt-iframe-format video-id))
-
-(org-link-set-parameters
- "yt"
- :follow
- (lambda (handle)
-   (browse-url
-    (concat "https://www.youtube.com/watch?v="
-            handle)))
- :export
- (lambda (path desc backend channel)
-   (when (eq backend 'html)
-     (my/embed-video path))))
-
 (setq org-publish-project-alist
       (list
        (list "davisrichard437.github.io"
