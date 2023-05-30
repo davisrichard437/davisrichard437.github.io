@@ -20,9 +20,7 @@ Vocalist: Dani Claxton
 
 Performed Friday, April 14, 2023 at the class concert for MUCO 542.
 
-#+begin_export html
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4WIBP1mQM5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-#+end_export
+[[yt:4WIBP1mQM5k]]
 
 ** fātō profugī (2021)
 
@@ -51,9 +49,7 @@ The music preceding this theme explores alternative techniques of variation to t
 
 Recorded May 3, 2022 by violist Marilou Lepage.
 
-#+begin_export html
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wyK7qbJSS8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-#+end_export
+[[yt:wyK7qbJSS8E]]
 
 ** Divide (2021)
 
@@ -104,9 +100,7 @@ Performed November 21, 2021:
 - Bass Clarinet: Gabriella Janssen
 - Marimba: Rahul Vanamali
 
-#+begin_export html
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s6qXjExMSBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-#+end_export
+[[yt:s6qXjExMSBU]]
 
 ** Two Pieces for Piano (2020)
 
@@ -132,9 +126,7 @@ Performed Sunday, March 19, 2023 at the Winter Concert for the McGill Associatio
 - Clarinet: Alexander Ortins
 - Narrator: Dani Claxton
 
-#+begin_export html
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kkycSK4Slow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-#+end_export
+[[yt:kkycSK4Slow]]
 
 * Performance
 
@@ -142,9 +134,7 @@ Performed Sunday, March 19, 2023 at the Winter Concert for the McGill Associatio
 
 Performed November 20, 2022 at the Fall Concert for the McGill Association of Student Composers.
 
-#+begin_export html
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2DQ5S-5k_jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-#+end_export
+[[yt:2DQ5S-5k_jc]]
 
 * Links
 :PROPERTIES:
