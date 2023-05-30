@@ -47,6 +47,7 @@
              :recursive t
              :base-directory "./content"
              :publishing-directory "./public"
+             :auto-sitemap t
              :publishing-function #'org-html-publish-to-html
              :section-numbers nil)))
 
@@ -55,6 +56,7 @@
 
 (delete-directory "./public" t)
 (mkdir "./public")
+(message (format "Publishing site via org version %s" org-version))
 (org-publish-all t)
 
 (message "Build complete!")
