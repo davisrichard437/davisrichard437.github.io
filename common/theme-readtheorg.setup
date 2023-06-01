@@ -10,3 +10,5 @@
 #+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+
+#+MACRO: yt (eval (concat "#+begin_export html\n" "<div class=\"video\">" "  <iframe src=\"https://www.youtube-nocookie.com/embed/" $1 "\" allowfullscreen></iframe>" "</div>\n" "#+end_export"))
