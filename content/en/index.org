@@ -1,9 +1,9 @@
 #+TITLE: Richard Davis, Composer
 #+SUBTITLE: Home
 #+AUTHOR: Richard Davis
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+SETUPFILE: ../../common/theme-readtheorg.setup
 
-#+INCLUDE: ./header.org
+#+INCLUDE: ../../common/header.org
 
 * About
 

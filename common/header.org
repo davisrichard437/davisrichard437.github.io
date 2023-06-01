@@ -1,0 +1,4 @@
+#+SETUPFILE: ../../common/theme-readtheorg.setup
+#+OPTIONS: num:nil ^:{}
+
+| [[file:../content/en/index.org][Home]] | [[file:../content/en/about.org][About]] | [[file:../content/en/events.org][Events]] | [[file:../content/en/listening.org][Listening]] | [[file:../content/fr/index.org][FR]] |

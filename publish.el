@@ -27,12 +27,11 @@
              :recursive t
              :base-directory "./content"
              :publishing-directory "./public"
-             :auto-sitemap t
              :publishing-function #'org-html-publish-to-html
              :section-numbers nil)
        (list "davisrichard437.github.io:assets"
              :base-directory "./assets/"
-             :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|woff2\\|ttf"
+             :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|woff2\\|ttf\\|ico"
              :publishing-directory "./public"
              :recursive t
              :publishing-function #'org-publish-attachment)))
