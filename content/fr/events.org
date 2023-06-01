@@ -1,19 +1,31 @@
-#+TITLE: Richard Davis, Composer
-#+SUBTITLE: Events
+#+TITLE: Richard Davis, Compositeur
+#+SUBTITLE: Evénements
 #+AUTHOR: Richard Davis
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+SETUPFILE: ../../common/theme-readtheorg.setup
 
-#+INCLUDE: ./header.org
+#+INCLUDE: ../../common/header-fr.org
 
-* Upcoming
+* À venir
 :PROPERTIES:
 :CUSTOM_ID: events-upcoming
 :END:
 
-Nothing right now!
+Bientôt la remise des diplômes !
 
-* Past
+* Récents
 
-** MASC Concert <2022-11-19 Sat 20:00>
+** Concert du DCS <2023-04-14 Fri 15:00>
 
-I'll be performing Daniel Claxton's "Vocalise and Fantasia for Viola" at the the McGill Association of Student Composers' [[https://www.mcgill.ca/music/channels/event/mcgill-association-student-composers-concert-341592][Fall Concert]].
+Dani Claxton interprétera ma pièce "Till this Moment" pour voix solo et électronique lors du prochain concert de classe du Digital Composition Studio.
+
+"Till This Moment" est une pièce pour voix et électronique en direct qui adapte les chapitres centraux du livre de Jane Austen /Pride et Préjugés/-- la lettre de Mr Darcy et la réaction d'Elizabeth Bennet à cette lettre.
+En lisant cette lettre, Elizabeth est confrontée à des informations incompatibles avec sa vision actuelle du monde. Elle en nie d'abord le contenu, puis l'examine plus attentivement, et enfin en comprend la vérité, ce qui fait d'elle une personne transformée et améliorée.
+Le format mixte permet de construire une dichotomie dramatique entre les représentations de la volonté consciente d'Elizabeth, telles qu'elles sont présentées par l'interprète, et celles des forces exercées sur elle par son personnage, ses pairs et le récit - en un mot, son âme - qui se reflètent dans l'électronique.
+
+** Concert du MASC <2023-03-19 Sun 20:00>
+
+Mon œuvre pour clarinette solo "One need not be a Chamber" sera interprétée en 2019 par le clarinettiste Alexander Ortins et narrée par Dani Claxton lors du concert d'hiver de l'Association des compositeurs étudiants de McGill [[https://www.mcgill.ca/music/channels/event/mcgill-association-student-composers-concert-342228][Winter Concert]].
+
+"One need not be a Chamber" est une œuvre pour clarinette solo et narrateur facultatif, basée sur le poème d'Emily Dickinson "One need not be a Chamber---to be Haunted---".
+La musique entretient une relation intime, ligne par ligne, avec le poème, traduisant divers motifs et caractéristiques du texte en leitmotivs - au sens le plus large - qui accompagnent l'arc émotionnel du poème de Dickinson.
+

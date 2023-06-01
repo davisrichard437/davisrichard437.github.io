@@ -1,0 +1,40 @@
+#+TITLE: Richard Davis, Compositeur
+#+SUBTITLE: A propos
+#+AUTHOR: Richard Davis
+#+SETUPFILE: ../../common/theme-readtheorg.setup
+
+#+INCLUDE: ../../common/header-fr.org
+
+* Introduction
+:PROPERTIES:
+:CUSTOM_ID: press-introduction
+:END:
+
+Salutations !
+Je m'appelle Richard Davis.
+Je suis compositeur, altiste et professeur, basé à Montréal et au Massachusetts.
+Mes principaux intérêts en matière de composition sont l'intertextualité, l'électronique en direct, la musique vocale ou à émulation vocale, et la composition assistée par ordinateur.
+Avec l'alto, je me spécialise dans l'interprétation de la musique contemporaine.
+
+* Bio
+:PROPERTIES:
+:CUSTOM_ID: press-bio
+:END:
+
+Richard Davis est un compositeur qui s'intéresse principalement à l'intertextualité, à l'électronique en direct, à la musique vocale ou à émulation vocale et à la composition assistée par ordinateur. Il est également altiste et se consacre principalement à l'interprétation de la musique contemporaine.
+Richard est originaire de Westford, Massachusetts, aux États-Unis, et réside actuellement à Montréal.
+
+Récemment, Richard a achevé son travail en tant que premier étudiant compositeur en résidence au studio vocal de McGill, qui a abouti à la première mondiale en 2022 de son opéra fātō profugī, qui présente un commentaire intertextuel sur l'histoire originale de Didon et Énée, tirée de l'Énéide de Vergile.
+
+À la suite de la conclusion de ce projet, Richard a également achevé une collaboration avec l'altiste Marilou Lepage sur sa pièce "Variations on an Excerpt", pour alto solo et électronique en direct.
+
+En outre, en 2021, "Perpetuum", une autre œuvre de Richard pour soprano et petit ensemble, composée d'après un texte de Céline Wang, a été créée.
+En outre, deux de ses autres œuvres - son duo en plusieurs mouvements pour flûte et clarinette, Divide, et ses Two Pieces for Piano- ont été enregistrées la même année.
+Sur le plan de l'interprétation, Richard a créé de nombreuses œuvres de compositeurs vivants, dont /OTOT/ d'Omer Barash, /Tehom/ de Philippe Macnab-Séguin et /Overture/ de Kit Vaughan Soden avec l'Orchestre symphonique de McGill, et /Qui croire de soi?/ de Marilou Buron avec l'Ensemble de musique contemporaine de McGill.
+
+Richard Davis est titulaire d'un diplôme d'études secondaires de la Westford Academy.
+Il est actuellement candidat au baccalauréat en musique à l'École de musique Schulich de l'Université McGill, où il étudie la composition musicale sous la direction du professeur Sean Ferguson et l'interprétation à l'alto sous la direction du professeur André Roy.
+
+* CV
+
+Voici un lien vers mon [[https://davisrichard437.github.io/documents/Richard Davis - CV.pdf][CV]] pour les personnes intéressées.

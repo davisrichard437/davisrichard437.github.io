@@ -1,31 +1,159 @@
-#+TITLE: Richard Davis, Composer
-#+SUBTITLE: Listening
+#+TITLE: Richard Davis, Compositeur
+#+SUBTITLE: L'écoute
 #+AUTHOR: Richard Davis
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+SETUPFILE: ../../common/theme-readtheorg.setup
 
-#+INCLUDE: ./header.org
+#+INCLUDE: ../../common/header-fr.org
 
-* Highlights
+* Points forts
 :PROPERTIES:
 :CUSTOM_ID: listening-highlights
 :END:
 
-** fātō profugī
+** Till This Moment (2023)
+
+"Till This Moment" est une pièce pour voix et électronique en direct qui adapte les chapitres cruciaux d'Orgueil et Préjugés de Jane Austen - la lettre de M. Darcy et la réaction d'Elizabeth Bennet à cette lettre.
+En lisant cette lettre, Elizabeth est confrontée à des informations incompatibles avec sa vision actuelle du monde. Elle en nie d'abord le contenu, puis l'examine plus attentivement, et enfin en comprend la vérité, ce qui fait d'elle une personne transformée et améliorée.
+Le format mixte permet de construire une dichotomie dramatique entre les représentations de la volonté consciente d'Elizabeth, telles qu'elles sont présentées par l'interprète, et celles des forces exercées sur elle par son personnage, ses pairs et le récit - en un mot, son âme - qui se reflètent dans l'électronique. 
+
+Chanteuse : Dani Claxton
+
+Créé le vendredi 14 avril 2023 lors du concert de la classe de MUCO 542.
 
 #+begin_export html
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1265920429&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/richard-davis-333277866" title="Richard Davis" target="_blank" style="color: #cccccc; text-decoration: none;">Richard Davis</a> · <a href="https://soundcloud.com/richard-davis-333277866/fato-profugi" title="fātō profugī" target="_blank" style="color: #cccccc; text-decoration: none;">fātō profugī</a></div>
+<iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2851746432/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://richarddavis.bandcamp.com/track/till-this-moment">Till This Moment by Richard Davis</a></iframe>
 #+end_export
 
-** Variations on an Excerpt
+Achetez la partition, le patch et les enregistrements ici :
 
 #+begin_export html
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wyK7qbJSS8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://payhip.com/b/H7vqQ" class="payhip-buy-button" data-theme="grey" data-product="H7vqQ">Acheter</a>
 #+end_export
 
-* Links
+** fātō profugī (2021)
+
+fātō profugī (réfugiés du destin) est une scène d'opéra qui met en scène des extraits de l'histoire originale de Didon et Énée, tirée de l'Énéide de Vergile, dans leur latin classique d'origine.
+Le fātō profugī fait référence à diverses autres œuvres musicales qui sont soit liées à ce texte, soit en résonance avec lui, soit en découlent, notamment Carmen de Georges Bizet, "Lamento della Ninfa" de Claudio Monteverdi, ma propre "Lament" pour quatuor à cordes, et Didon et Énée d'Henry Purcell.
+Les références à ces œuvres et aux réseaux de sens qui leur sont associés créent un discours musical qui permet une réévaluation contemporaine de ce texte ancien (et, par extension, d'autres textes connexes).
+
+Enregistré le 22 avril 2022 :
+- Dīdō : Gabrielle Coté-Picard
+- Aenēās : Wesley Harrison
+- Piano : Yan-Ru Chen
+- Mixage : Joshua Stanberry
+
+#+begin_export html
+<iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2653807316/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://richarddavis.bandcamp.com/track/f-t-profug">fātō profugī by Richard Davis</a></iframe>
+#+end_export
+
+Achetez la partition et le texte d'accompagnement ici :
+
+#+begin_export html
+<a href="https://payhip.com/b/1A9Xj" class="payhip-buy-button" data-theme="grey" data-product="1A9Xj">Acheter</a>
+#+end_export
+
+* Composition
+
+** Variations on an Excerpt (2022)
+
+L'œuvre "Variations sur un extrait" présente une approche non conventionnelle du genre thème et variations, en inversant son facteur de forme traditionnel.
+Plutôt qu'un thème suivi de variations discrètes et de plus en plus éloignées, "Variations sur un extrait" présente un ensemble continu de variations qui se concentrent sur le thème.
+Le thème lui-même est la première section du célèbre extrait orchestral pour alto du deuxième mouvement de la Symphonie n° 5 de Beethoven (également un thème et des variations). 5 de Beethoven (également un thème et des variations).
+La musique qui précède ce thème explore d'autres techniques de variation que celles utilisées par Beethoven, favorisant celles dérivées d'un idiome électronique de composition plutôt que les processus symboliques et instrumentaux de Beethoven.
+
+Enregistré le 3 mai 2022 par l'altiste Marilou Lepage.
+
+{{{yt(wyK7qbJSS8E)}}}
+
+** Divide (2021)
+
+/Divide/ est une œuvre en trois mouvements pour duo flûte/clarinette qui, comme son nom l'indique, explore les contrastes musicaux et les différentes façons de les gérer, à la fois au sein des mouvements et entre eux.
+
+Les mouvements 1 et 2 ont été interprétés par Jayden Lee à la flûte et Alexander Ortins à la clarinette, et ont été enregistrés par Monika Azmanska le 5 décembre 2021.
+Le mouvement 3 a été interprété par Nicole Carbotte à la flûte et Elia Foster à la clarinette, et a été enregistré par Priam David le 29 avril 2022.
+
+#+begin_export html
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1503157465&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/richard-davis-333277866" title="Richard Davis" target="_blank" style="color: #cccccc; text-decoration: none;">Richard Davis</a> · <a href="https://soundcloud.com/richard-davis-333277866/sets/divide" title="Divide" target="_blank" style="color: #cccccc; text-decoration: none;">Divide</a></div>
+#+end_export
+
+** Perpetuum (2021)
+
+"Perpetuum" est une œuvre pour petit ensemble et voix qui reprend le poème du même nom de Céline Wang.
+
+#+begin_verse
+Here comes the bride
+For all eternity to come
+With her unbroken vow as scripture
+And so on it goes, as long as we shall live:
+
+And I will give you constance and I will give you motion
+And I will give you major and I will give you minor
+And I will give you cosmos and I will give you crumbles
+Fidelity
+Fidelity
+Fidelity
+
+And I will give you freedom and I will give you burden
+And I will give you glory and I will give you solace
+And I will give you maidens and I will give you martyrs
+Excelsior,
+Excelsior,
+Excelsior!
+
+And I will give you presence and I will give you vastness
+And I will give you rhythm and I will give you stasis
+And I will give you reason and I will give you ardor
+Perpetuum
+Perpetuum
+Perpetuum...
+#+end_verse
+
+Exécuté le 21 novembre 2021 :
+- Chant : Natalia McKenna
+- Violon : Celia Morin
+- Clarinette basse : Gabriella Janssen
+- Marimba : Rahul Vanamali
+
+{{{yt(s6qXjExMSBU)}}}
+
+** Two Pieces for Piano (2020)
+
+/Two Pieces for Piano/ est une œuvre en deux mouvements pour piano solo qui présente des interprétations grotesques de deux genres primordiaux : une berceuse sur laquelle on ne peut s'endormir et une danse sur laquelle on ne peut danser.
+La berceuse cherche plutôt à raconter l'histoire d'une berceuse : la mélodie, même si elle essaie de résister, ne peut s'empêcher d'être finalement enveloppée par l'étreinte fiable de l'harmonie.
+Le deuxième mouvement présente une danse entre deux groupes : l'un énergique et effronté, l'autre plus réservé et lyrique.
+Les deux groupes présentent leurs parties respectives et s'efforcent de résoudre le décalage.
+
+Enregistré le 5 décembre 2020 :
+- Piano : Nicholas Ma
+- Mixage : Andy Le
+
+#+begin_export html
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1246904017&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/richard-davis-333277866" title="Richard Davis" target="_blank" style="color: #cccccc; text-decoration: none;">Richard Davis</a> · <a href="https://soundcloud.com/richard-davis-333277866/sets/two-pieces-for-piano" title="Two Pieces for Piano" target="_blank" style="color: #cccccc; text-decoration: none;">Two Pieces for Piano</a></div>
+#+end_export
+
+** One need not be a Chamber (2019)
+
+"One need not be a Chamber" est une œuvre pour clarinette solo et narrateur facultatif, basée sur le poème d'Emily Dickinson "One need not be a Chamber-to be Haunted-".
+La musique entretient une relation intime, ligne par ligne, avec le poème, traduisant divers motifs et caractéristiques du texte en leitmotivs - au sens le plus large - qui accompagnent l'arc émotionnel du poème de Dickinson.
+
+Interprétée le dimanche 19 mars 2023 lors du concert d'hiver de l'Association des étudiants compositeurs de McGill.
+- Clarinette : Alexander Ortins
+- Narrateur : Dani Claxton
+
+{{{yt(kkycSK4Slow)}}}
+
+* Performance
+
+** Vocalise and Fantasia for Viola -- Dani Claxton
+
+Interprétée le 20 novembre 2022 lors du concert d'automne de l'Association des étudiants compositeurs de McGill.
+
+{{{yt(2DQ5S-5k_jc)}}}
+
+* Liens
 :PROPERTIES:
 :CUSTOM_ID: listening-links
 :END:
 
-- [[https://youtube.com/@davisrichard437][YouTube Channel]]
-- [[https://soundcloud.com/richard-davis-333277866][SoundCloud]]
+Si vous aimez ce que je fais et souhaitez me soutenir, vous pouvez acheter des morceaux sur mon [[https://richarddavis.bandcamp.com][Bandcamp]] ou des partitions sur mon [[https://payhip.com/RichardDavis][Payhip]].
+Si vous voulez en savoir plus sur ce que je fais, toute ma musique est hébergée quelque part entre ma [[https://youtube.com/@davisrichard437][Chaîne YouTube]] et mon [[https://soundcloud.com/richard-davis-333277866][SoundCloud]] ; la chaîne YouTube se concentre sur les performances live et contient quelques vidéos de partitions lorsque c'est possible, et SoundCloud contient plus d'enregistrements en studio.
