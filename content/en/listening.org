@@ -21,7 +21,13 @@ Vocalist: Dani Claxton
 Performed Friday, April 14, 2023 at the class concert for MUCO 542.
 
 #+begin_export html
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4WIBP1mQM5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2851746432/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://richarddavis.bandcamp.com/track/till-this-moment">Till This Moment by Richard Davis</a></iframe>
+#+end_export
+
+Buy the score, patch, and recordings here:
+
+#+begin_export html
+<a href="https://payhip.com/b/H7vqQ" class="payhip-buy-button" data-theme="grey" data-product="H7vqQ">Buy Now</a>
 #+end_export
 
 ** fātō profugī (2021)
@@ -37,7 +43,13 @@ Recorded April 22, 2022:
 - Mix: Joshua Stanberry
 
 #+begin_export html
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1265920429&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/richard-davis-333277866" title="Richard Davis" target="_blank" style="color: #cccccc; text-decoration: none;">Richard Davis</a> · <a href="https://soundcloud.com/richard-davis-333277866/fato-profugi" title="fātō profugī" target="_blank" style="color: #cccccc; text-decoration: none;">fātō profugī</a></div>
+<iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=2653807316/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://richarddavis.bandcamp.com/track/f-t-profug">fātō profugī by Richard Davis</a></iframe>
+#+end_export
+
+Purchase the score and a text companion here:
+
+#+begin_export html
+<a href="https://payhip.com/b/1A9Xj" class="payhip-buy-button" data-theme="grey" data-product="1A9Xj">Buy Now</a>
 #+end_export
 
 * Composition
@@ -151,6 +163,5 @@ Performed November 20, 2022 at the Fall Concert for the McGill Association of St
 :CUSTOM_ID: listening-links
 :END:
 
-- [[https://richarddavis.bandcamp.com][Bandcamp]]
-- [[https://youtube.com/@davisrichard437][YouTube Channel]]
-- [[https://soundcloud.com/richard-davis-333277866][SoundCloud]]
+If you like what I do and want to consider supporting me, please consider purchasing tracks from my [[https://richarddavis.bandcamp.com][Bandcamp]] or scores from my [[https://payhip.com/RichardDavis][Payhip]].
+If you want to learn more about what I do, all of my music is hosted somewhere between my [[https://youtube.com/@davisrichard437][YouTube Channel]] and my [[https://soundcloud.com/richard-davis-333277866][SoundCloud]]; the YouTube channel focuses on live performances and has some score videos where possible, and the SoundCloud has more studio recordings.
