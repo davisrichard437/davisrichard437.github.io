@@ -7,11 +7,7 @@
 
 * About
 
-Salutations!
-My name is Richard Davis.
-I am a Montreal- and Massachusetts-based composer, viola performer, and teacher.
-My primary compositional interests are intertextuality, live electronics, vocal or vocal-emulating music, and computer-assisted composition.
-With viola, I specialize in contemporary music performance.
+#+INCLUDE: ./about.org::#press-introduction :only-contents t
 
 * Upcoming Events
 

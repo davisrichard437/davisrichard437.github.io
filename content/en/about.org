@@ -5,6 +5,17 @@
 
 #+INCLUDE: ../../common/header.org
 
+* Introduction
+:PROPERTIES:
+:CUSTOM_ID: press-introduction
+:END:
+
+Salutations!
+My name is Richard Davis.
+I am a Montreal- and Massachusetts-based composer, viola performer, and teacher.
+My primary compositional interests are intertextuality, live electronics, vocal or vocal-emulating music, and computer-assisted composition.
+With viola, I specialize in contemporary music performance.
+
 * Bio
 :PROPERTIES:
 :CUSTOM_ID: press-bio
