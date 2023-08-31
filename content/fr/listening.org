@@ -116,6 +116,15 @@ Exécuté le 21 novembre 2021 :
 
 {{{yt(s6qXjExMSBU)}}}
 
+** Keystone
+
+Une clé de voûte est la pierre la plus haute d'une arche qui maintient l'ensemble de la structure.
+Cette pièce explore, de manière acousmatique, ce concept de clé de voûte et ce qui se passe lorsque la clé de voûte s'effrite.
+
+#+begin_export html
+<iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1955241946/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://richarddavis.bandcamp.com/track/keystone">Keystone by Richard Davis</a></iframe>
+#+end_export
+
 ** Two Pieces for Piano (2020)
 
 /Two Pieces for Piano/ est une œuvre en deux mouvements pour piano solo qui présente des interprétations grotesques de deux genres primordiaux : une berceuse sur laquelle on ne peut s'endormir et une danse sur laquelle on ne peut danser.

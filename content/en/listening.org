@@ -116,6 +116,15 @@ Performed November 21, 2021:
 
 {{{yt(s6qXjExMSBU)}}}
 
+** Keystone
+
+A keystone is the uppermost stone in an arch which holds the whole structure together.
+This piece explores, in an acousmatic fashion, this concept of a keystone, and what happens when the keystone crumbles.
+
+#+begin_export html
+<iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1955241946/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://richarddavis.bandcamp.com/track/keystone">Keystone by Richard Davis</a></iframe>
+#+end_export
+
 ** Two Pieces for Piano (2020)
 
 /Two Pieces for Piano/ is a two-movement work for solo piano that presents grotesque interpretations of two overarching genres: a lullaby that one cannot fall asleep to, and a dance that one cannot dance to.
