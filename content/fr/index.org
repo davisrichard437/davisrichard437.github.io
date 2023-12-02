@@ -22,7 +22,7 @@
 ** Divers
 
 Certains pourraient être intéressés par mon [[https://gitlab.com/davisrichard437][GitLab]], qui contient un certain nombre de scripts Python que j'ai écrits dans le passé pour diverses tâches de composition assistée par ordinateur.
-J'ai également un [[https://github.com/davisrichard437][GitHub]], mais il est secondaire et principalement destiné à la collaboration avec d'autres.
+J'ai également un [[https://github.com/davisrichard437][GitHub]] (où est hébergé [[https://github.com/davisrichard437/davisrichard437.github.io][le code source de ce site web]]!), mais il est secondaire et principalement destiné à la collaboration avec d'autres.
 
 * Contact
 

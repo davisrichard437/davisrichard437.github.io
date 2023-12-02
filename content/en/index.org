@@ -22,7 +22,7 @@
 ** Miscellaneous
 
 Some might be interested in my [[https://gitlab.com/davisrichard437][GitLab]], which has a number of Python scripts I've written in the past for various computer-assisted composition tasks.
-I also have a [[https://github.com/davisrichard437][GitHub]], but this is secondary and primarily for collaboration with others.
+I also have a [[https://github.com/davisrichard437][GitHub]] (where the [[https://github.com/davisrichard437/davisrichard437.github.io][source code for this site is hosted!]]), but this is secondary and primarily for collaboration with others.
 
 * Contact
 
