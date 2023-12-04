@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>Richard Davis, Composer</title>
+  <atom:link href="./blog.xml" rel="self" type="application/rss+xml" />
+  <link></link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Mon, 04 Dec 2023 05:09:05 +0000</pubDate>
+  <lastBuildDate>Mon, 04 Dec 2023 05:09:05 +0000</lastBuildDate>
+  <generator>Emacs 27.1 Org-mode 9.6.12</generator>
+  <webMaster>runner@fv-az842-240 (Richard Davis)</webMaster>
+  <image>
+    <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>Richard Davis, Composer</title>
+    <link></link>
+  </image>
+
+  <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+    <colgroup>
+      <col  class="org-left" />
+
+      <col  class="org-left" />
+
+      <col  class="org-left" />
+
+      <col  class="org-left" />
+
+      <col  class="org-left" />
+    </colgroup>
+    <tbody>
+      <tr>
+	<td class="org-left"><a href="index.html">Home</a></td>
+	<td class="org-left"><a href="about.html">About</a></td>
+	<td class="org-left"><a href="events.html">Events</a></td>
+	<td class="org-left"><a href="listening.html">Listening</a></td>
+	<td class="org-left"><a href="../fr/index.html">FR</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    Subscribe to the <a href="./rss.xml">RSS feed</a> here!
+  </p>
+
+  <item>
+    <title>./blog/introduction.org</title>
+    <link>./blog.html#orgf648ba2</link>
+    <author>runner@fv-az842-240 (Richard Davis)</author>
+    <guid isPermaLink="false">./blog.html#orgf648ba2</guid>
+    <pubDate>Mon, 04 Dec 2023 00:02:00 +0000</pubDate>
+
+    <description><![CDATA[]]></description>
+  </item>
+</channel>
+</rss>
