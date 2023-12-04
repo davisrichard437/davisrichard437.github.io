@@ -14,10 +14,10 @@
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 04 Dec 2023 05:09:05 +0000</pubDate>
-  <lastBuildDate>Mon, 04 Dec 2023 05:09:05 +0000</lastBuildDate>
+  <pubDate>Mon, 04 Dec 2023 05:11:38 +0000</pubDate>
+  <lastBuildDate>Mon, 04 Dec 2023 05:11:38 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.6.12</generator>
-  <webMaster>runner@fv-az842-240 (Richard Davis)</webMaster>
+  <webMaster>runner@fv-az740-515 (Richard Davis)</webMaster>
   <image>
     <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>Richard Davis, Composer</title>
@@ -50,14 +50,14 @@
   </table>
 
   <p>
-    Subscribe to the <a href="./rss.xml">RSS feed</a> here!
+    Subscribe to the <a href="./blog.xml">RSS feed</a> here!
   </p>
 
   <item>
     <title>./blog/introduction.org</title>
-    <link>./blog.html#orgf648ba2</link>
-    <author>runner@fv-az842-240 (Richard Davis)</author>
-    <guid isPermaLink="false">./blog.html#orgf648ba2</guid>
+    <link>./blog.html#org0569111</link>
+    <author>runner@fv-az740-515 (Richard Davis)</author>
+    <guid isPermaLink="false">./blog.html#org0569111</guid>
     <pubDate>Mon, 04 Dec 2023 00:02:00 +0000</pubDate>
 
     <description><![CDATA[]]></description>
