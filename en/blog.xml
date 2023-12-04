@@ -11,17 +11,17 @@
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Richard Davis, Composer</title>
   <atom:link href="https://richarddavis.xyz/en/blog.xml" rel="self" type="application/rss+xml" />
-  <link></link>
+  <link>https://richarddavis.xyz</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 04 Dec 2023 05:30:54 +0000</pubDate>
-  <lastBuildDate>Mon, 04 Dec 2023 05:30:54 +0000</lastBuildDate>
+  <pubDate>Mon, 04 Dec 2023 05:37:01 +0000</pubDate>
+  <lastBuildDate>Mon, 04 Dec 2023 05:37:01 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.6.12</generator>
   <webMaster>runner@fv-az1391-586 (Richard Davis)</webMaster>
   <image>
     <url>https://richarddavis.xyz/images/favicon.ico</url>
     <title>Richard Davis, Composer</title>
-    <link></link>
+    <link>https://richarddavis.xyz</link>
   </image>
 
   <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -55,9 +55,9 @@
 
   <item>
     <title>Something?</title>
-    <link>./blog.html#org551450c</link>
+    <link>https://richarddavis.xyz/blog.html#org4a6d21d</link>
     <author>runner@fv-az1391-586 (Richard Davis)</author>
-    <guid isPermaLink="false">./blog.html#org551450c</guid>
+    <guid isPermaLink="false">https://richarddavis.xyz/blog.html#org4a6d21d</guid>
     <pubDate>Mon, 04 Dec 2023 00:02:00 +0000</pubDate>
 
     <description><![CDATA[<p>
