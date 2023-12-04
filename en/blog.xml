@@ -10,16 +10,16 @@
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Richard Davis, Composer</title>
-  <atom:link href="./blog.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="https://richarddavis.xyz/en/blog.xml" rel="self" type="application/rss+xml" />
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 04 Dec 2023 05:11:38 +0000</pubDate>
-  <lastBuildDate>Mon, 04 Dec 2023 05:11:38 +0000</lastBuildDate>
+  <pubDate>Mon, 04 Dec 2023 05:22:29 +0000</pubDate>
+  <lastBuildDate>Mon, 04 Dec 2023 05:22:29 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.6.12</generator>
-  <webMaster>runner@fv-az740-515 (Richard Davis)</webMaster>
+  <webMaster>runner@fv-az1208-412 (Richard Davis)</webMaster>
   <image>
-    <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <url>https://richarddavis.xyz/images/favicon.ico</url>
     <title>Richard Davis, Composer</title>
     <link></link>
   </image>
@@ -55,9 +55,9 @@
 
   <item>
     <title>./blog/introduction.org</title>
-    <link>./blog.html#org0569111</link>
-    <author>runner@fv-az740-515 (Richard Davis)</author>
-    <guid isPermaLink="false">./blog.html#org0569111</guid>
+    <link>./blog.html#org59621cc</link>
+    <author>runner@fv-az1208-412 (Richard Davis)</author>
+    <guid isPermaLink="false">./blog.html#org59621cc</guid>
     <pubDate>Mon, 04 Dec 2023 00:02:00 +0000</pubDate>
 
     <description><![CDATA[]]></description>
