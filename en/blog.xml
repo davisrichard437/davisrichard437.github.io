@@ -14,10 +14,10 @@
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 04 Dec 2023 05:22:29 +0000</pubDate>
-  <lastBuildDate>Mon, 04 Dec 2023 05:22:29 +0000</lastBuildDate>
+  <pubDate>Mon, 04 Dec 2023 05:30:54 +0000</pubDate>
+  <lastBuildDate>Mon, 04 Dec 2023 05:30:54 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.6.12</generator>
-  <webMaster>runner@fv-az1208-412 (Richard Davis)</webMaster>
+  <webMaster>runner@fv-az1391-586 (Richard Davis)</webMaster>
   <image>
     <url>https://richarddavis.xyz/images/favicon.ico</url>
     <title>Richard Davis, Composer</title>
@@ -54,13 +54,16 @@
   </p>
 
   <item>
-    <title>./blog/introduction.org</title>
-    <link>./blog.html#org59621cc</link>
-    <author>runner@fv-az1208-412 (Richard Davis)</author>
-    <guid isPermaLink="false">./blog.html#org59621cc</guid>
+    <title>Something?</title>
+    <link>./blog.html#org551450c</link>
+    <author>runner@fv-az1391-586 (Richard Davis)</author>
+    <guid isPermaLink="false">./blog.html#org551450c</guid>
     <pubDate>Mon, 04 Dec 2023 00:02:00 +0000</pubDate>
 
-    <description><![CDATA[]]></description>
+    <description><![CDATA[<p>
+    <a href="./blog/introduction.html">First post</a>!
+    </p>
+    ]]></description>
   </item>
 </channel>
 </rss>
