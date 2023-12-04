@@ -11,17 +11,17 @@
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Richard Davis, Composer</title>
   <atom:link href="https://richarddavis.xyz/en/blog.xml" rel="self" type="application/rss+xml" />
-  <link>https://richarddavis.xyz</link>
+  <link>https://richarddavis.xyz/en/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 04 Dec 2023 05:39:10 +0000</pubDate>
-  <lastBuildDate>Mon, 04 Dec 2023 05:39:10 +0000</lastBuildDate>
+  <pubDate>Mon, 04 Dec 2023 05:42:06 +0000</pubDate>
+  <lastBuildDate>Mon, 04 Dec 2023 05:42:06 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.6.12</generator>
-  <webMaster>runner@fv-az1016-860 (Richard Davis)</webMaster>
+  <webMaster>runner@fv-az530-677 (Richard Davis)</webMaster>
   <image>
     <url>https://richarddavis.xyz/images/favicon.ico</url>
     <title>Richard Davis, Composer</title>
-    <link>https://richarddavis.xyz</link>
+    <link>https://richarddavis.xyz/en/</link>
   </image>
 
   <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -55,9 +55,9 @@
 
   <item>
     <title>Something?</title>
-    <link>https://richarddavis.xyz/blog.html#orgfe6b720</link>
-    <author>runner@fv-az1016-860 (Richard Davis)</author>
-    <guid isPermaLink="false">https://richarddavis.xyz/blog.html#orgfe6b720</guid>
+    <link>https://richarddavis.xyz/en/blog.html#org78db6a4</link>
+    <author>runner@fv-az530-677 (Richard Davis)</author>
+    <guid isPermaLink="false">https://richarddavis.xyz/en/blog.html#org78db6a4</guid>
     <pubDate>Mon, 04 Dec 2023 00:02:00 +0000</pubDate>
 
     <description><![CDATA[<p>
