@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:georss="http://www.georss.org/georss"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>Richard Davis, Composer</title>
+  <atom:link href="https:///richarddavis.xyz/en/blog/rss.xml" rel="self" type="application/rss+xml" />
+  <link>https:///richarddavis.xyz/en/blog/</link>
+  <description><![CDATA[]]></description>
+  <language>en</language>
+  <pubDate>Tue, 05 Dec 2023 03:05:14 +0000</pubDate>
+  <lastBuildDate>Tue, 05 Dec 2023 03:05:14 +0000</lastBuildDate>
+  <generator>Emacs 27.1 Org-mode 9.6.12</generator>
+  <webMaster>runner@fv-az520-882 (nil)</webMaster>
+  <image>
+    <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
+    <title>Richard Davis, Composer</title>
+    <link>https:///richarddavis.xyz/en/blog/</link>
+  </image>
+
+
+  <item>
+    <title>file:/home/runner/work/davisrichard437.github.io/davisrichard437.github.io/content/en/blog/introduction.org</title>
+    <link>https:///richarddavis.xyz/en/blog/introduction.html</link>
+    <author>runner@fv-az520-882 (nil)</author>
+    <guid isPermaLink="false">https:///richarddavis.xyz/en/blog/introduction.html</guid>
+    <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+    <colgroup>
+    <col  class="org-left" />
+
+    <col  class="org-left" />
+
+    <col  class="org-left" />
+
+    <col  class="org-left" />
+
+    <col  class="org-left" />
+    </colgroup>
+    <tbody>
+    <tr>
+    <td class="org-left"><a href="../index.html">Home</a></td>
+    <td class="org-left"><a href="../about.html">About</a></td>
+    <td class="org-left"><a href="../events.html">Events</a></td>
+    <td class="org-left"><a href="../listening.html">Listening</a></td>
+    <td class="org-left"><a href="../../fr/index.html">FR</a></td>
+    </tr>
+    </tbody>
+    </table>
+
+    <p>
+    Salutations?!
+    </p>
+    ]]></description>
+  </item>
+</channel>
+</rss>
