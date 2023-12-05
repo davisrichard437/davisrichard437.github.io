@@ -39,7 +39,7 @@
 (require 'seq)
 
 (setq tld "richarddavis.xyz"
-      name "Richard Davis"
+      user-full-name "Richard Davis"
       regen-files '("content/en/blog/index.org"
                     "content/en/blog/rss.org"))
 
@@ -108,7 +108,7 @@ representation for the files to include, as returned by
 `org-list-to-lisp'."
   (concat "#+TITLE: " title "\n"
           "#+SUBTITLE: Blog\n"
-          "#+AUTHOR: " name "\n"
+          "#+AUTHOR: " user-full-name "\n"
           "#+SETUPFILE: ../../../common/theme-readtheorg.setup\n\n"
           "#+INCLUDE: ../../../common/header-en.org\n\n"
           "Subscribe to the RSS feed [[file:./rss.xml][here]]!\n\n"
