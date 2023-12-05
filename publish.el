@@ -36,7 +36,6 @@
 (require 'ob-lob)
 (require 'ox-publish)
 (require 'ox-rss)
-(require 'seq)
 
 (setq tld "richarddavis.xyz"
       user-full-name "Richard Davis"
