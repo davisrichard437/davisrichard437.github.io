@@ -94,7 +94,6 @@ PROJECT is the current project."
              (org-set-property "PUBDATE" date)
              (goto-char (point-max))
              (insert (string-trim text))
-             (message (buffer-string))
              (buffer-string))))
         ((eq style 'tree)
          ;; Return only last subdir.
