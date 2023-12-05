@@ -1,0 +1,15 @@
+#+TITLE: Introduction
+#+SUBTITLE: Blog
+#+AUTHOR: Richard Davis
+#+DATE: <2023-12-05 Tue>
+#+SETUPFILE: ../../../common/theme-readtheorg.setup
+
+#+INCLUDE: ../../../common/header-en.org
+
+Salutations all!
+
+My name is Richard Davis.
+I'll be using this blog to talk about things that are interesting to me.
+This primarily refers to music and tech, though there could be a couple miscellaneous things sprinkled in here and there.
+
+I hope you enjoy!
