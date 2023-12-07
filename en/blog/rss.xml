@@ -14,10 +14,10 @@
   <link>https://richarddavis.xyz/en/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Tue, 05 Dec 2023 23:12:46 +0000</pubDate>
-  <lastBuildDate>Tue, 05 Dec 2023 23:12:46 +0000</lastBuildDate>
+  <pubDate>Thu, 07 Dec 2023 18:42:24 +0000</pubDate>
+  <lastBuildDate>Thu, 07 Dec 2023 18:42:24 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.6.12</generator>
-  <webMaster>runner@fv-az665-559 (Richard Davis)</webMaster>
+  <webMaster>runner@fv-az1242-267 (Richard Davis)</webMaster>
   <image>
     <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>Richard Davis, Composer</title>
@@ -26,9 +26,30 @@
 
 
   <item>
+    <title>Building this Site</title>
+    <link>https://richarddavis.xyz/en/blog/building-this-site.html</link>
+    <author>runner@fv-az1242-267 (Richard Davis)</author>
+    <guid isPermaLink="false">https://richarddavis.xyz/en/blog/building-this-site.html</guid>
+    <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    Salutations!
+    </p>
+
+    <p>
+    I'm a nerd.
+    One of the things I'm a nerd about is Emacs, the extensible text editor.
+    Emacs does basically everything for me: I can listen to music, browse the web, read and send email, chat over multiple protocols, read and write PDF documents, etc.
+    (Notice that I didn't even explicitly mention writing text!)
+    One new thing that I have made Emacs do for me is build this website.
+    This proved harder than I expected, so I'll share some takeaways from the process.
+    </p>
+    ]]></description>
+  </item>
+  <item>
     <title>Introduction</title>
     <link>https://richarddavis.xyz/en/blog/introduction.html</link>
-    <author>runner@fv-az665-559 (Richard Davis)</author>
+    <author>runner@fv-az1242-267 (Richard Davis)</author>
     <guid isPermaLink="false">https://richarddavis.xyz/en/blog/introduction.html</guid>
     <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
 
