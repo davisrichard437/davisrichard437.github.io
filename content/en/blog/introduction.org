@@ -1,5 +1,5 @@
 #+TITLE: Introduction
-#+SUBTITLE: Blog
+#+SUBTITLE: Richard Davis, Blog
 #+AUTHOR: Richard Davis
 #+DATE: <2023-12-05 Tue>
 #+SETUPFILE: ../../../common/theme-readtheorg.setup
