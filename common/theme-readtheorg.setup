@@ -6,3 +6,7 @@
 #+HTML_HEAD: <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
 
 #+MACRO: yt (eval (concat "#+begin_export html\n" "<div class=\"video\">" "  <iframe src=\"https://www.youtube-nocookie.com/embed/" $1 "\" allowfullscreen></iframe>" "</div>\n" "#+end_export"))
+
+#+HTML_HEAD: <style> #content{max-width:1800px;}</style>
+#+HTML_HEAD: <style> p{max-width:800px;}</style>
+#+HTML_HEAD: <style> li{max-width:800px;}</style
