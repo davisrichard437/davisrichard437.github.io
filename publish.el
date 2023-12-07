@@ -29,7 +29,7 @@
 (unless package-archive-contents
   (package-refresh-contents))
 
-(dolist (pkg '(org-contrib ox-rss))
+(dolist (pkg '(org-contrib ox-rss htmlize))
   (unless (package-installed-p pkg)
     (package-install pkg)))
 
@@ -40,7 +40,8 @@
 (setq tld "richarddavis.xyz"
       user-full-name "Richard Davis"
       regen-files '("content/en/blog/index.org"
-                    "content/en/blog/rss.org"))
+                    "content/en/blog/rss.org")
+      org-html-htmlize-output-type 'css)
 
 (org-babel-lob-ingest "./content/variables.org")
 
