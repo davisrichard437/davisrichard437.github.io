@@ -79,13 +79,22 @@ PROJECT is the current project."
                 (text
                  (with-temp-buffer
                    (insert-file-contents file)
-                   (shell-command-on-region (point-min)
-                                            (point-max)
-                                            ; remove keywords/comments
-                                            "sed '/^[[:space:]]*#/d'"
-                                            nil
-                                            t)
-                   (buffer-string))))
+                   ; remove kewords and comments
+                   ; remove everything after first heading
+                   (shell-command-on-region
+                    (point-min)
+                    (point-max)
+                    "sed -n -e '/^[[:space:]]*#/d' -e '1,/^*/p'"
+                    nil
+                    t)
+                   ; remove first heading
+                   (shell-command-on-region
+                    (point-min)
+                    (point-max)
+                    "sed '/^\\*/d'"
+                    nil
+                    t)
+                   (string-trim (buffer-string)))))
            (with-temp-buffer
              (org-mode) ; need to call `org-set-property'
              (insert (format "* [[file:%s][%s]]\n" file title))
@@ -93,7 +102,7 @@ PROJECT is the current project."
              (org-set-property "RSS_TITLE" title)
              (org-set-property "PUBDATE" date)
              (goto-char (point-max))
-             (insert (string-trim text))
+             (insert text)
              (buffer-string))))
         ((eq style 'tree)
          ;; Return only last subdir.
