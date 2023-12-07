@@ -1,0 +1,281 @@
+#+TITLE: Building this Site
+#+SUBTITLE: Richard Davis, Blog
+#+AUTHOR: Richard Davis
+#+DATE: <2023-12-07 Thu>
+#+SETUPFILE: ../../../common/theme-readtheorg.setup
+
+#+INCLUDE: ../../../common/header-en.org
+
+Salutations!
+
+I'm a nerd.
+One of the things I'm a nerd about is Emacs, the extensible text editor.
+Emacs does basically everything for me: I can listen to music, browse the web, read and send email, chat over multiple protocols, read and write PDF documents, etc.
+(Notice that I didn't even explicitly mention writing text!)
+One new thing that I have made Emacs do for me is build this website.
+This proved harder than I expected, so I'll share some takeaways from the process.
+
+* Hosting
+
+This is pretty easy; I just use [[https://pages.github.com/][GitHub Pages]].
+This also takes care of building the website via a [[https://docs.github.com/en/actions][GitHub Action]] that installs Emacs, builds the site, and publishes its content to GitHub Pages.
+And though not technically necessary, I bought a domain and set it up as directed [[https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site][here]].
+
+This part of the process is practically effortless, and I can recommend it to anyone looking to build a static site like this one.
+I may someday want to migrate to a freer option like [[https://sr.ht/][sr.ht]] or [[https://codeberg.org/][Codeberg]] but that can wait until I have the money, time, and energy to do so.
+
+* Building the site
+
+The build process that GitHub Actions runs to build the site's HTML files is the publishing feature of [[https://orgmode.org/][Org Mode]], the incredibly powerful outlining tool/organizer/document builder etc. for Emacs.
+This feature transforms files into other formats according user-defined project settings.
+I am of course not the first to do this; my work draws on or steals from many who have done similar things before me.
+My primary source was David Wilson of SystemCrafters fame, who has two excellent tutorials on [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][building sites with Org Mode]] and [[https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/][automated publishing with GitHub Pages]].
+
+As there are already excellent sources on these topics, I will summarize briefly and only comment on when I feel I do something differently or have something to offer.
+
+* Setupfile
+
+One thing I do (due to my lack of knowledge of HTML and CSS) is that I use a =setupfile= to provide nice HTML and CSS theming that I couldn't otherwise do myself.
+At the moment I'm using the ReadTheOrg theme (a ReadTheDocs clone) from the wonderful [[https://github.com/fniessen/org-html-themes][=org-html-themes=]] project.
+These can be added to your project with a =#+SETUPFILE:= directive in all Org Mode files, like so:
+
+#+begin_src org
+,#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+end_src
+
+However, I require a few more settings, so I don't directly; I instead wrap this directive in my own =setupfile= which I then use in the org files for the website.
+I override or add some HTML settings and define the =yt= macro to embed videos.
+The =setupfile= looks something like this:
+#+begin_src org
+# include the original setupfile
+,#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+# my settings
+,#+HTML_HEAD: <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+,#+HTML_HEAD: <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
+
+,#+MACRO: yt (eval (concat "#+begin_export html\n" "<div class=\"video\">" "  <iframe src=\"https://www.youtube-nocookie.com/embed/" $1 "\" allowfullscreen></iframe>" "</div>\n" "#+end_export"))
+
+,#+HTML_HEAD: <style> #content{max-width:1800px;}</style>
+,#+HTML_HEAD: <style> p{max-width:800px;}</style>
+,#+HTML_HEAD: <style> li{max-width:800px;}</style
+#+end_src
+I refer to the setupfile from within org files like so:
+#+begin_src org
+,#+SETUPFILE: ../path/to/my/theme-readtheorg.setup
+#+end_src
+
+In order to allow downloading the remote setupfile, in the publish script, I must include it in the variable =org-safe-remote-resources=:
+#+begin_src emacs-lisp
+(setq org-safe-remote-resources
+      '("\\`https://fniessen\\.github\\.io/org-html-themes/org/theme-readtheorg\\.setup\\'"))
+#+end_src
+
+* Blog
+
+The hardest part of this site was setting up the blog the way I wanted it.
+I relied a lot on [[https://writepermission.com/org-blogging-rss-feed.html][this wonderful article]] to help me generate the RSS feed, though I had to tweak some functions to get it to function as I like it.
+
+** =my/format-rss-feed-entry=
+
+This function generates an RSS entry in an intermediate =rss.org= file.
+It functions by sanitizing the text of the blog post to a useful RSS description and inserting that in an Org Mode entry with the appropriate properties.
+
+#+begin_src emacs-lisp
+(defun my/format-rss-feed-entry (entry style project)
+  "Format ENTRY for the RSS feed.
+ENTRY is a file name.  STYLE is either 'list' or 'tree'.
+PROJECT is the current project."
+  (cond ((not (directory-name-p entry))
+         (let* ((file (org-publish--expand-file-name entry project))
+                (title (org-publish-find-title entry project))
+                (date (format-time-string
+                       "%Y-%m-%d"
+                       (org-publish-find-date entry project)))
+                (link (concat (file-name-sans-extension entry) ".html"))
+                (text
+                 (with-temp-buffer
+                   (insert-file-contents file)
+                   ; remove kewords and comments
+                   ; remove everything after first heading
+                   (shell-command-on-region
+                    (point-min)
+                    (point-max)
+                    "sed -n -e '/^[[:space:]]*#/d' -e '1,/^*/p'"
+                    nil
+                    t)
+                   ; remove first heading
+                   (shell-command-on-region
+                    (point-min)
+                    (point-max)
+                    "sed '/^\\*/d'"
+                    nil
+                    t)
+                   (string-trim (buffer-string)))))
+           (with-temp-buffer
+             (org-mode) ; need to call `org-set-property'
+             (insert (format "* [[file:%s][%s]]\n" file title))
+             (org-set-property "RSS_PERMALINK" link)
+             (org-set-property "RSS_TITLE" title)
+             (org-set-property "PUBDATE" date)
+             (goto-char (point-max))
+             (insert text)
+             (buffer-string))))
+        ((eq style 'tree)
+         ;; Return only last subdir.
+         (file-name-nondirectory (directory-file-name entry)))
+        (t entry)))
+#+end_src
+
+
+The most notable change here is that I significantly sanitize the text of the region with the =shell-command-on-region= directives.
+I make sure only the text of the article before the first heading (the introduction) remains in the RSS description, and that no keywords (such as =#+SUBTITLE=) remain that might sully the output.
+
+** Project
+
+The final entry in =org-publish-project-alist= looks something like this:
+#+begin_src emacs-lisp
+(list "davisrichard437.github.io:rss"
+      :base-directory "./content/en/blog"
+      :base-extension "org"
+      :recursive nil
+      :exclude (regexp-opt '("rss.org" "index.org" "404.org"))
+      :publishing-function 'my/org-rss-publish-to-rss
+      :publishing-directory "./public/en/blog"
+      :rss-extension "xml"
+      :html-link-home "https://richarddavis.xyz/en/blog/"
+      :html-link-use-abs-url t
+      :html-link-org-files-as-html t
+      :auto-sitemap t
+      :sitemap-filename "rss.org"
+      :sitemap-title "Richard Davis, Composer"
+      :sitemap-style 'list
+      :sitemap-sort-files 'anti-chronologically
+      :sitemap-function #'my/format-rss-feed
+      :sitemap-format-entry #'my/format-rss-feed-entry)
+#+end_src
+
+* Blog landing page
+
+The above does a great job to generate an RSS feed, but I also want to generate a landing page where the blog entries are that can be accessible to the rest of the site.
+This turned out to be a very similar process to the RSS feed, with only a few tweaks necessary to change the formatting as I wish.
+The entry in =org-publish-project-alist= is similar, with only a few details changed.
+
+#+begin_src emacs-lisp
+(list "davisrichard437.github.io:blog"
+      :base-directory "./content/en/blog"
+      :base-extension "org"
+      :publishing-directory "./public/en/blog"
+      :recursive nil
+      :exclude (regexp-opt '("rss.org"))
+      :html-link-home "https://richarddavis.xyz/en/blog/"
+      :html-link-use-abs-url t
+      :html-link-org-files-as-html t
+      :auto-sitemap t
+      :sitemap-filename "index.org"
+      :sitemap-title "Richard Davis, Composer"
+      :sitemap-style 'list
+      :sitemap-format-entry #'my/format-sitemap-entry
+      :sitemap-function #'my/format-sitemap
+      :sitemap-sort-files 'anti-chronologically
+      :sitemap-file-entry-format "%t (%d)")
+#+end_src
+
+Notably, the format functions have changed from the RSS project as the formatting needs have changed.
+
+** =my/format-sitemap-entry=
+
+This function takes a single file within the =davisrichard437.github.io:blog= project (a single blog post) and transforms it into an unordered list entry.
+
+#+begin_src emacs-lisp
+(defun my/format-sitemap-entry (file style project)
+  "Format ENTRY for the RSS feed.
+FILE is a file name.  STYLE is either 'list' or 'tree'.
+PROJECT is the current project."
+  (let ((path (org-publish--expand-file-name file project))
+        (title (org-publish-find-title file project))
+        (date (format-time-string "%Y-%m-%d"
+                                  (org-publish-find-date file project))))
+    (format "- [[file:%s][%s (%s)]]\n"
+            file
+            title
+            date)))
+#+end_src
+
+** =my/format-sitemap=
+
+This function formats the sitemap (in an intermediate file, =index.org=, that will subsequently be published to HTML) by adding all of the in-buffer settings and preamble text I want.
+
+#+begin_src emacs-lisp
+(defun my/format-sitemap (title list)
+  "Generate sitemap, as a string.
+TITLE is the title of the RSS feed.  LIST is an internal
+representation for the files to include, as returned by
+`org-list-to-lisp'."
+  (concat "#+TITLE: " title "\n"
+          "#+SUBTITLE: Blog\n"
+          "#+AUTHOR: " user-full-name "\n"
+          "#+SETUPFILE: ../../../common/theme-readtheorg.setup\n\n"
+          "#+INCLUDE: ../../../common/header-en.org\n\n"
+          "Subscribe to the RSS feed [[file:./rss.xml][here]]!\n\n"
+          (org-list-to-subtree list 1 '(:icount "" :istart ""))))
+#+end_src
+
+* Quality of life
+
+Beyond the above, I have made a few quality of life improvements that help me develop the site better.
+
+** Publish script
+
+The =publish.el= file at the root of the repository is itself a script, that defines Emacs as its interpreter with a shebang, as follows:
+
+#+begin_src text
+#!/usr/bin/env -S emacs -Q --script
+#+end_src
+
+This means the file can be run in any interactive shell like any other script.
+
+#+begin_src shell
+./publish.el
+#+end_src
+
+Another major advantage this offers is that it ensures the script can run on its own, without contamination from a local Emacs configuration.
+This is essential for it to be able to run via a GitHub Action.
+
+** Local development
+
+One thing I found when doing local development is that =org-publish= will not remove published files if their source file has been removed.
+This can make it a little challenging to know what will actually show when I push the repository.
+Thus, before running =org-publish-all=, I make sure to delete the =public= directory:
+
+#+begin_src emacs-lisp
+(delete-directory "./public" t)
+#+end_src
+
+The intermediate files for the RSS feed and the sitemap can also get in the way, so I remove those too:
+
+#+begin_src emacs-lisp
+(setq regen-files '("content/en/blog/index.org"
+                    "content/en/blog/rss.org"))
+
+(dolist (f regen-files)
+  (delete-file f))
+#+end_src
+
+This way I have a clean repository before publishing.
+
+** =simple-httpd=
+
+I like to use the [[https://github.com/snadjperge/simple-httpd][=simple-httpd=]] package to test the website as I build it.
+Once it's installed, I publish the site once and run =M-x httpd-serve-directory RET path/to/public=.
+I can then access the site from my web browser of choice by navigating to http://0.0.0.0:8080, or whatever URL shows up in the message buffer.
+When I'm done I can run =M-x httpd-stop=.
+
+* Conclusion
+
+Emacs is pretty cool!
+This setup works pretty well for me and it makes it much easier for me to maintain a website.
+All I need at this point is to figure out how to get a good mono-space font for code examples.
+
+You can access the source for this website [[https://github.com/davisrichard437/davisrichard437.github.io][here]].
+Comments, suggestions, questions, etc. are always welcome at [[mailto:davisrichard437@gmail.com][davisrichard437@gmail.com]]!
