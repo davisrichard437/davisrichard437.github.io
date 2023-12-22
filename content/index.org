@@ -6,7 +6,7 @@
 #+BIND: org-html-postamble nil
 #+OPTIONS: creator:nil date:nil author:nil
 #+SETUPFILE: ../common/theme-readtheorg.setup
-#+HTML_HEAD: <meta http-equiv="Refresh" content="0; url='https://richarddavis.xyz/en/'" />
+#+HTML_HEAD: <meta http-equiv='refresh' content='0; URL=http://richarddavis.xyz/en/'>
 
 If you are not redirected in five seconds, click [[file:./en/index.org][here]].
 
