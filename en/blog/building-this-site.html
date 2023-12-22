@@ -3,64 +3,209 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-12-22 Fri 04:35 -->
+<!-- 2023-12-22 Fri 08:47 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Building this Site</title>
 <meta name="author" content="Richard Davis" />
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
-<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link href="/styles/org.css" rel="stylesheet" />
+<link href="/styles/style.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=JetBrains+Mono&?family=Open+Sans" rel="stylesheet" />
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
-<style> #content{max-width:1800px;}</style>
-<style> p{max-width:800px;}</style>
-<style> li{max-width:800px;}</style>
 </head>
 <body>
-<div id="org-div-home-and-up">
- <a accesskey="h" href=""> UP </a>
- |
- <a accesskey="H" href="https://richarddavis.xyz/en/blog/"> HOME </a>
-</div><div id="content" class="content">
+<div id="content" class="content">
 <h1 class="title">Building this Site
 <br />
 <span class="subtitle">Richard Davis, Blog</span>
 </h1>
-<div id="table-of-contents" role="doc-toc">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
-<ul>
-<li><a href="#org62e5679">Hosting</a></li>
-<li><a href="#org372da7d">Building the site</a></li>
-<li><a href="#org5e83705">Setupfile</a></li>
-<li><a href="#org2be30df">Blog</a>
-<ul>
-<li><a href="#orgf5877a3"><code>my/format-rss-feed-entry</code></a></li>
-<li><a href="#org692613f">Project</a></li>
-</ul>
-</li>
-<li><a href="#orgf4b0d5e">Blog landing page</a>
-<ul>
-<li><a href="#orgf6e5a3d"><code>my/format-sitemap-entry</code></a></li>
-<li><a href="#orga60a87d"><code>my/format-sitemap</code></a></li>
-</ul>
-</li>
-<li><a href="#org83914bf">Quality of life</a>
-<ul>
-<li><a href="#orgb8e0d03">Publish script</a></li>
-<li><a href="#org059c993">Local development</a></li>
-<li><a href="#org11227da"><code>simple-httpd</code></a></li>
-</ul>
-</li>
-<li><a href="#org192353b">Conclusion</a></li>
-</ul>
-</div>
-</div>
+<div class="org-center">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -88,6 +233,7 @@
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>
 Salutations!
@@ -102,9 +248,9 @@ One new thing that I have made Emacs do for me is build this website.
 This proved harder than I expected, so I'll share some takeaways from the process.
 </p>
 
-<div id="outline-container-org62e5679" class="outline-2">
-<h2 id="org62e5679">Hosting</h2>
-<div class="outline-text-2" id="text-org62e5679">
+<div id="outline-container-orga74fb13" class="outline-2">
+<h2 id="orga74fb13">Hosting</h2>
+<div class="outline-text-2" id="text-orga74fb13">
 <p>
 This is pretty easy; I just use <a href="https://pages.github.com/">GitHub Pages</a>.
 This also takes care of building the website via a <a href="https://docs.github.com/en/actions">GitHub Action</a> that installs Emacs, builds the site, and publishes its content to GitHub Pages.
@@ -118,9 +264,9 @@ I may someday want to migrate to a freer option like <a href="https://sr.ht/">sr
 </div>
 </div>
 
-<div id="outline-container-org372da7d" class="outline-2">
-<h2 id="org372da7d">Building the site</h2>
-<div class="outline-text-2" id="text-org372da7d">
+<div id="outline-container-orgd488f0c" class="outline-2">
+<h2 id="orgd488f0c">Building the site</h2>
+<div class="outline-text-2" id="text-orgd488f0c">
 <p>
 The build process that GitHub Actions runs to build the site's HTML files is the publishing feature of <a href="https://orgmode.org/">Org Mode</a>, the incredibly powerful outlining tool/organizer/document builder etc. for Emacs.
 This feature transforms files into other formats according user-defined project settings.
@@ -134,9 +280,9 @@ As there are already excellent sources on these topics, I will summarize briefly
 </div>
 </div>
 
-<div id="outline-container-org5e83705" class="outline-2">
-<h2 id="org5e83705">Setupfile</h2>
-<div class="outline-text-2" id="text-org5e83705">
+<div id="outline-container-org0d6fda4" class="outline-2">
+<h2 id="org0d6fda4">Setupfile</h2>
+<div class="outline-text-2" id="text-org0d6fda4">
 <p>
 One thing I do (due to my lack of knowledge of HTML and CSS) is that I use a <code>setupfile</code> to provide nice HTML and CSS theming that I couldn't otherwise do myself.
 At the moment I'm using the ReadTheOrg theme (a ReadTheDocs clone) from the wonderful <a href="https://github.com/fniessen/org-html-themes"><code>org-html-themes</code></a> project.
@@ -187,18 +333,18 @@ In order to allow downloading the remote setupfile, in the publish script, I mus
 </div>
 </div>
 
-<div id="outline-container-org2be30df" class="outline-2">
-<h2 id="org2be30df">Blog</h2>
-<div class="outline-text-2" id="text-org2be30df">
+<div id="outline-container-org0941cf2" class="outline-2">
+<h2 id="org0941cf2">Blog</h2>
+<div class="outline-text-2" id="text-org0941cf2">
 <p>
 The hardest part of this site was setting up the blog the way I wanted it.
 I relied a lot on <a href="https://writepermission.com/org-blogging-rss-feed.html">this wonderful article</a> to help me generate the RSS feed, though I had to tweak some functions to get it to function as I like it.
 </p>
 </div>
 
-<div id="outline-container-orgf5877a3" class="outline-3">
-<h3 id="orgf5877a3"><code>my/format-rss-feed-entry</code></h3>
-<div class="outline-text-3" id="text-orgf5877a3">
+<div id="outline-container-orge542681" class="outline-3">
+<h3 id="orge542681"><code>my/format-rss-feed-entry</code></h3>
+<div class="outline-text-3" id="text-orge542681">
 <p>
 This function generates an RSS entry in an intermediate <code>rss.org</code> file.
 It functions by sanitizing the text of the blog post to a useful RSS description and inserting that in an Org Mode entry with the appropriate properties.
@@ -259,9 +405,9 @@ I make sure only the text of the article before the first heading (the introduct
 </div>
 </div>
 
-<div id="outline-container-org692613f" class="outline-3">
-<h3 id="org692613f">Project</h3>
-<div class="outline-text-3" id="text-org692613f">
+<div id="outline-container-org76b555b" class="outline-3">
+<h3 id="org76b555b">Project</h3>
+<div class="outline-text-3" id="text-org76b555b">
 <p>
 The final entry in <code>org-publish-project-alist</code> looks something like this:
 </p>
@@ -290,9 +436,9 @@ The final entry in <code>org-publish-project-alist</code> looks something like t
 </div>
 </div>
 
-<div id="outline-container-orgf4b0d5e" class="outline-2">
-<h2 id="orgf4b0d5e">Blog landing page</h2>
-<div class="outline-text-2" id="text-orgf4b0d5e">
+<div id="outline-container-org8ed2a82" class="outline-2">
+<h2 id="org8ed2a82">Blog landing page</h2>
+<div class="outline-text-2" id="text-org8ed2a82">
 <p>
 The above does a great job to generate an RSS feed, but I also want to generate a landing page where the blog entries are that can be accessible to the rest of the site.
 This turned out to be a very similar process to the RSS feed, with only a few tweaks necessary to change the formatting as I wish.
@@ -325,9 +471,9 @@ Notably, the format functions have changed from the RSS project as the formattin
 </p>
 </div>
 
-<div id="outline-container-orgf6e5a3d" class="outline-3">
-<h3 id="orgf6e5a3d"><code>my/format-sitemap-entry</code></h3>
-<div class="outline-text-3" id="text-orgf6e5a3d">
+<div id="outline-container-org11271d2" class="outline-3">
+<h3 id="org11271d2"><code>my/format-sitemap-entry</code></h3>
+<div class="outline-text-3" id="text-org11271d2">
 <p>
 This function takes a single file within the <code>davisrichard437.github.io:blog</code> project (a single blog post) and transforms it into an unordered list entry.
 </p>
@@ -350,9 +496,9 @@ This function takes a single file within the <code>davisrichard437.github.io:blo
 </div>
 </div>
 
-<div id="outline-container-orga60a87d" class="outline-3">
-<h3 id="orga60a87d"><code>my/format-sitemap</code></h3>
-<div class="outline-text-3" id="text-orga60a87d">
+<div id="outline-container-org52aad5b" class="outline-3">
+<h3 id="org52aad5b"><code>my/format-sitemap</code></h3>
+<div class="outline-text-3" id="text-org52aad5b">
 <p>
 This function formats the sitemap (in an intermediate file, <code>index.org</code>, that will subsequently be published to HTML) by adding all of the in-buffer settings and preamble text I want.
 </p>
@@ -376,17 +522,17 @@ This function formats the sitemap (in an intermediate file, <code>index.org</cod
 </div>
 </div>
 
-<div id="outline-container-org83914bf" class="outline-2">
-<h2 id="org83914bf">Quality of life</h2>
-<div class="outline-text-2" id="text-org83914bf">
+<div id="outline-container-orga4f7240" class="outline-2">
+<h2 id="orga4f7240">Quality of life</h2>
+<div class="outline-text-2" id="text-orga4f7240">
 <p>
 Beyond the above, I have made a few quality of life improvements that help me develop the site better.
 </p>
 </div>
 
-<div id="outline-container-orgb8e0d03" class="outline-3">
-<h3 id="orgb8e0d03">Publish script</h3>
-<div class="outline-text-3" id="text-orgb8e0d03">
+<div id="outline-container-org6f1e8e0" class="outline-3">
+<h3 id="org6f1e8e0">Publish script</h3>
+<div class="outline-text-3" id="text-org6f1e8e0">
 <p>
 The <code>publish.el</code> file at the root of the repository is itself a script, that defines Emacs as its interpreter with a shebang, as follows:
 </p>
@@ -412,9 +558,9 @@ This is essential for it to be able to run via a GitHub Action.
 </div>
 </div>
 
-<div id="outline-container-org059c993" class="outline-3">
-<h3 id="org059c993">Local development</h3>
-<div class="outline-text-3" id="text-org059c993">
+<div id="outline-container-orgd759d09" class="outline-3">
+<h3 id="orgd759d09">Local development</h3>
+<div class="outline-text-3" id="text-orgd759d09">
 <p>
 One thing I found when doing local development is that <code>org-publish</code> will not remove published files if their source file has been removed.
 This can make it a little challenging to know what will actually show when I push the repository.
@@ -445,9 +591,9 @@ This way I have a clean repository before publishing.
 </div>
 </div>
 
-<div id="outline-container-org11227da" class="outline-3">
-<h3 id="org11227da"><code>simple-httpd</code></h3>
-<div class="outline-text-3" id="text-org11227da">
+<div id="outline-container-orgb872d9a" class="outline-3">
+<h3 id="orgb872d9a"><code>simple-httpd</code></h3>
+<div class="outline-text-3" id="text-orgb872d9a">
 <p>
 I like to use the <a href="https://github.com/snadjperge/simple-httpd"><code>simple-httpd</code></a> package to test the website as I build it.
 Once it's installed, I publish the site once and run <code>M-x httpd-serve-directory RET path/to/public</code>.
@@ -458,9 +604,9 @@ When I'm done I can run <code>M-x httpd-stop</code>.
 </div>
 </div>
 
-<div id="outline-container-org192353b" class="outline-2">
-<h2 id="org192353b">Conclusion</h2>
-<div class="outline-text-2" id="text-org192353b">
+<div id="outline-container-org4affa2c" class="outline-2">
+<h2 id="org4affa2c">Conclusion</h2>
+<div class="outline-text-2" id="text-org4affa2c">
 <p>
 Emacs is pretty cool!
 This setup works pretty well for me and it makes it much easier for me to maintain a website.
@@ -477,8 +623,7 @@ Comments, suggestions, questions, etc. are always welcome at <a href="mailto:dav
 <div id="postamble" class="status">
 <p class="date">Date: 2023-12-07 Thu 00:00</p>
 <p class="author">Author: Richard Davis</p>
-<p class="date">Created: 2023-12-22 Fri 04:35</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="date">Created: 2023-12-22 Fri 08:47</p>
 </div>
 </body>
 </html>

@@ -3,23 +3,201 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-12-22 Fri 04:35 -->
+<!-- 2023-12-22 Fri 08:47 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Richard Davis, Composer</title>
 <meta name="author" content="Richard Davis" />
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
-<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link href="/styles/org.css" rel="stylesheet" />
+<link href="/styles/style.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=JetBrains+Mono&?family=Open+Sans" rel="stylesheet" />
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
-<style> #content{max-width:1800px;}</style>
-<style> p{max-width:800px;}</style>
-<style> li{max-width:800px;}</style>
 </head>
 <body>
 <div id="content" class="content">
@@ -27,35 +205,7 @@
 <br />
 <span class="subtitle">Listening</span>
 </h1>
-<div id="table-of-contents" role="doc-toc">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
-<ul>
-<li><a href="#listening-highlights">Highlights</a>
-<ul>
-<li><a href="#orgd7d83c6">Till This Moment (2023)</a></li>
-<li><a href="#org214a4c8">fātō profugī (2021)</a></li>
-</ul>
-</li>
-<li><a href="#orgaf38587">Composition</a>
-<ul>
-<li><a href="#org88a12b7">Variations on an Excerpt (2022)</a></li>
-<li><a href="#orgf504ca7">Divide (2021)</a></li>
-<li><a href="#org9d50969">Perpetuum (2021)</a></li>
-<li><a href="#org3a71a60">Keystone (2020)</a></li>
-<li><a href="#org3da175f">Two Pieces for Piano (2020)</a></li>
-<li><a href="#orgb8de7ad">One need not be a Chamber (2019)</a></li>
-</ul>
-</li>
-<li><a href="#org58bc6f9">Performance</a>
-<ul>
-<li><a href="#orgfce294c">Vocalise and Fantasia for Viola &#x2013; Dani Claxton</a></li>
-</ul>
-</li>
-<li><a href="#listening-links">Links</a></li>
-</ul>
-</div>
-</div>
+<div class="org-center">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -83,15 +233,16 @@
 </tr>
 </tbody>
 </table>
+</div>
 
 <div id="outline-container-listening-highlights" class="outline-2">
 <h2 id="listening-highlights">Highlights</h2>
 <div class="outline-text-2" id="text-listening-highlights">
 </div>
 
-<div id="outline-container-orgd7d83c6" class="outline-3">
-<h3 id="orgd7d83c6">Till This Moment (2023)</h3>
-<div class="outline-text-3" id="text-orgd7d83c6">
+<div id="outline-container-orge884039" class="outline-3">
+<h3 id="orge884039">Till This Moment (2023)</h3>
+<div class="outline-text-3" id="text-orge884039">
 <p>
 "Till This Moment" is a piece for voice and live electronics that adapts the pivotal chapters of Jane Austen's Pride and Prejudice&#x2014;Mr. Darcy's letter and Elizabeth Bennet's reaction to it.
 In reading this letter, Elizabeth is confronted with information incompatible with her current worldview, first denying its contents, then considering it more carefully, and finally understanding its truth, ultimately leaving her a transformed and improved person.
@@ -116,9 +267,9 @@ Buy the score, patch, and recordings here:
 </div>
 </div>
 
-<div id="outline-container-org214a4c8" class="outline-3">
-<h3 id="org214a4c8">fātō profugī (2021)</h3>
-<div class="outline-text-3" id="text-org214a4c8">
+<div id="outline-container-org9e86d10" class="outline-3">
+<h3 id="org9e86d10">fātō profugī (2021)</h3>
+<div class="outline-text-3" id="text-org9e86d10">
 <p>
 fātō profugī (refugees from fate) is an opera scene that sets excerpts of the original Dido and Aeneas story from Vergil’s Aeneid in their original classical Latin.
 fātō profugī makes reference to various other musical works that are either related to, resonant with, or descended from this text, including Carmen by Georges Bizet, “Lamento della Ninfa” by Claudio Monteverdi, my own "Lament" for string quartet, and Dido and Aeneas by Henry Purcell.
@@ -146,13 +297,13 @@ Purchase the score and a text companion here:
 </div>
 </div>
 
-<div id="outline-container-orgaf38587" class="outline-2">
-<h2 id="orgaf38587">Composition</h2>
-<div class="outline-text-2" id="text-orgaf38587">
+<div id="outline-container-orgb386ddb" class="outline-2">
+<h2 id="orgb386ddb">Composition</h2>
+<div class="outline-text-2" id="text-orgb386ddb">
 </div>
-<div id="outline-container-org88a12b7" class="outline-3">
-<h3 id="org88a12b7">Variations on an Excerpt (2022)</h3>
-<div class="outline-text-3" id="text-org88a12b7">
+<div id="outline-container-orgb777446" class="outline-3">
+<h3 id="orgb777446">Variations on an Excerpt (2022)</h3>
+<div class="outline-text-3" id="text-orgb777446">
 <p>
 The work "Variations on an Excerpt" presents an unconventional take on the theme and variations genre, reversing its traditional form factor.
 Rather than a theme followed by discrete, increasingly remote variations, "Variations on an Excerpt" presents a continuous set of variations that zoom in on the theme.
@@ -168,9 +319,9 @@ Recorded May 3, 2022 by violist Marilou Lepage.
 </div>
 </div>
 
-<div id="outline-container-orgf504ca7" class="outline-3">
-<h3 id="orgf504ca7">Divide (2021)</h3>
-<div class="outline-text-3" id="text-orgf504ca7">
+<div id="outline-container-org5673f59" class="outline-3">
+<h3 id="org5673f59">Divide (2021)</h3>
+<div class="outline-text-3" id="text-org5673f59">
 <p>
 <i>Divide</i> is a three-movement work for flute/clarinet duo that, as its name suggests, explores musical contrasts and various ways of navigating them, both within movements and between them.
 </p>
@@ -184,9 +335,9 @@ Movement 3 was performed by Nicole Carbotte on flute and Elia Foster on clarinet
 </div>
 </div>
 
-<div id="outline-container-org9d50969" class="outline-3">
-<h3 id="org9d50969">Perpetuum (2021)</h3>
-<div class="outline-text-3" id="text-org9d50969">
+<div id="outline-container-orge89787c" class="outline-3">
+<h3 id="orge89787c">Perpetuum (2021)</h3>
+<div class="outline-text-3" id="text-orge89787c">
 <p>
 "Perpetuum" is a work for small ensemble and voice which sets the poem of the same name by Celine Wang.
 </p>
@@ -233,9 +384,9 @@ Performed November 21, 2021:
 </div>
 </div>
 
-<div id="outline-container-org3a71a60" class="outline-3">
-<h3 id="org3a71a60">Keystone (2020)</h3>
-<div class="outline-text-3" id="text-org3a71a60">
+<div id="outline-container-org37a1f3d" class="outline-3">
+<h3 id="org37a1f3d">Keystone (2020)</h3>
+<div class="outline-text-3" id="text-org37a1f3d">
 <p>
 A keystone is the uppermost stone in an arch which holds the whole structure together.
 This piece explores, in an acousmatic fashion, this concept of a keystone, and what happens when the keystone crumbles.
@@ -245,9 +396,9 @@ This piece explores, in an acousmatic fashion, this concept of a keystone, and w
 </div>
 </div>
 
-<div id="outline-container-org3da175f" class="outline-3">
-<h3 id="org3da175f">Two Pieces for Piano (2020)</h3>
-<div class="outline-text-3" id="text-org3da175f">
+<div id="outline-container-org24cb0af" class="outline-3">
+<h3 id="org24cb0af">Two Pieces for Piano (2020)</h3>
+<div class="outline-text-3" id="text-org24cb0af">
 <p>
 <i>Two Pieces for Piano</i> is a two-movement work for solo piano that presents grotesque interpretations of two overarching genres: a lullaby that one cannot fall asleep to, and a dance that one cannot dance to.
 The lullaby, rather, seeks to tell the story of a lullaby: the melody, no matter how hard it may try to resist, cannot help but eventually be enveloped by the reliable embrace of the harmony.
@@ -267,9 +418,9 @@ Recorded December 5, 2020:
 </div>
 </div>
 
-<div id="outline-container-orgb8de7ad" class="outline-3">
-<h3 id="orgb8de7ad">One need not be a Chamber (2019)</h3>
-<div class="outline-text-3" id="text-orgb8de7ad">
+<div id="outline-container-orgb2bd284" class="outline-3">
+<h3 id="orgb2bd284">One need not be a Chamber (2019)</h3>
+<div class="outline-text-3" id="text-orgb2bd284">
 <p>
 "One need not be a Chamber" is a work for solo clarinet and optional narrator, based on the Emily Dickinson poem "One need not be a Chamber—to be Haunted—".
 The music maintains an intimate, line-by-line relationship with the poem, translating various motifs and features of the text into leitmotifs—in the loosest sense—that accompany the emotional arc of Dickinson's poem.
@@ -288,13 +439,13 @@ Performed Sunday, March 19, 2023 at the Winter Concert for the McGill Associatio
 </div>
 </div>
 
-<div id="outline-container-org58bc6f9" class="outline-2">
-<h2 id="org58bc6f9">Performance</h2>
-<div class="outline-text-2" id="text-org58bc6f9">
+<div id="outline-container-org76387df" class="outline-2">
+<h2 id="org76387df">Performance</h2>
+<div class="outline-text-2" id="text-org76387df">
 </div>
-<div id="outline-container-orgfce294c" class="outline-3">
-<h3 id="orgfce294c">Vocalise and Fantasia for Viola &#x2013; Dani Claxton</h3>
-<div class="outline-text-3" id="text-orgfce294c">
+<div id="outline-container-orgfd4a877" class="outline-3">
+<h3 id="orgfd4a877">Vocalise and Fantasia for Viola &#x2013; Dani Claxton</h3>
+<div class="outline-text-3" id="text-orgfd4a877">
 <p>
 Performed November 20, 2022 at the Fall Concert for the McGill Association of Student Composers.
 </p>
@@ -316,8 +467,7 @@ If you want to learn more about what I do, all of my music is hosted somewhere b
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Richard Davis</p>
-<p class="date">Created: 2023-12-22 Fri 04:35</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="date">Created: 2023-12-22 Fri 08:47</p>
 </div>
 </body>
 </html>
