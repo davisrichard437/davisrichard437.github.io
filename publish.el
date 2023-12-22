@@ -26,8 +26,7 @@
              '("melpa-stable" . "https://stable.melpa.org/packages/"))
 
 (package-initialize)
-(unless package-archive-contents
-  (package-refresh-contents))
+(package-refresh-contents)
 
 (dolist (pkg '(org-contrib ox-rss htmlize))
   (unless (package-installed-p pkg)
@@ -41,7 +40,9 @@
       user-full-name "Richard Davis"
       regen-files '("content/en/blog/index.org"
                     "content/en/blog/rss.org")
-      org-html-htmlize-output-type 'css)
+      org-html-htmlize-output-type 'css
+      org-html-validation-link nil
+      org-src-fontify-natively t)
 
 (org-babel-lob-ingest "./content/variables.org")
 
@@ -157,23 +158,23 @@ PROJECT is the current project."
              :publishing-function 'my/org-rss-publish-to-rss
              :publishing-directory "./public/en/blog"
              :rss-extension "xml"
-             :html-link-home "https://richarddavis.xyz/en/blog/"
              :html-link-use-abs-url t
              :html-link-org-files-as-html t
              :auto-sitemap t
-             :sitemap-filename "rss.org"
+             :sitemap-filename "rss.org" ; write intermediate rss.org
              :sitemap-title "Richard Davis, Composer"
              :sitemap-style 'list
              :sitemap-sort-files 'anti-chronologically
              :sitemap-function #'my/format-rss-feed
-             :sitemap-format-entry #'my/format-rss-feed-entry)
+             :sitemap-format-entry #'my/format-rss-feed-entry
+             :time-stamp-file nil
+             :with-creator nil)
        (list "davisrichard437.github.io:blog"
              :base-directory "./content/en/blog"
              :base-extension "org"
              :publishing-directory "./public/en/blog"
              :recursive nil
              :exclude (regexp-opt '("rss.org"))
-             :html-link-home "https://richarddavis.xyz/en/blog/"
              :html-link-use-abs-url t
              :html-link-org-files-as-html t
              :auto-sitemap t

@@ -1,3 +1,5 @@
 #+OPTIONS: num:nil ^:{}
 
+#+begin_center
 | [[file:../content/en/index.org][Home]] | [[file:../content/en/about.org][About]] | [[file:../content/en/events.org][Events]] | [[file:../content/en/listening.org][Listening]] | [[file:../content/en/blog/index.org][Blog]] | [[file:../content/fr/index.org][FR]] |
+#+end_center

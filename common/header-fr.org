@@ -1,5 +1,7 @@
 #+OPTIONS: num:nil ^:{}
 
+#+begin_center
 | [[file:../content/fr/index.org][Accueil]] | [[file:../content/fr/about.org][A propos]] | [[file:../content/fr/events.org][Evénements]] | [[file:../content/fr/listening.org][L'écoute]] | [[file:../content/en/index.org][EN]] |
+#+end_center
 
 Traduction française par [[https://deepl.com][DeepL]].
