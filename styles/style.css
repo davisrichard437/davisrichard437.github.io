@@ -32,3 +32,13 @@ pre.src:hover:before {
     background-color: #282a36;
     color: #f8f8f2;
 }
+
+#postamble,
+p.copyright {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+code {
+    font-family: 'JetBrains Mono', monospace;
+}
