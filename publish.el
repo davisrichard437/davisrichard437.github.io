@@ -26,7 +26,8 @@
              '("melpa-stable" . "https://stable.melpa.org/packages/"))
 
 (package-initialize)
-(package-refresh-contents)
+(unless package-archive-contents
+  (package-refresh-contents))
 
 (dolist (pkg '(org-contrib ox-rss htmlize))
   (unless (package-installed-p pkg)
@@ -42,7 +43,9 @@
                     "content/en/blog/rss.org")
       org-html-htmlize-output-type 'css
       org-html-validation-link nil
-      org-src-fontify-natively t)
+      org-src-fontify-natively t
+      org-html-postamble-format '(("en" "<p class=\"copyright\">© %a, %T</p>")))
+;; (message org-html-postamble-format)
 
 (org-babel-lob-ingest "./content/variables.org")
 
@@ -143,7 +146,10 @@ PROJECT is the current project."
              :base-directory "./content"
              :publishing-directory "./public"
              :publishing-function #'org-html-publish-to-html
-             :section-numbers nil)
+             :section-numbers nil
+             ;; :with-author nil
+             ;; :time-stamp-file nil
+             )
        (list "davisrichard437.github.io:assets"
              :base-directory "./assets/"
              :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|woff2\\|ttf\\|ico"
@@ -168,7 +174,9 @@ PROJECT is the current project."
              :sitemap-function #'my/format-rss-feed
              :sitemap-format-entry #'my/format-rss-feed-entry
              :time-stamp-file nil
-             :with-creator nil)
+             :with-creator nil
+             :with-author nil
+             :time-stamp-file nil)
        (list "davisrichard437.github.io:blog"
              :base-directory "./content/en/blog"
              :base-extension "org"
@@ -184,7 +192,10 @@ PROJECT is the current project."
              :sitemap-format-entry #'my/format-sitemap-entry
              :sitemap-function #'my/format-sitemap
              :sitemap-sort-files 'anti-chronologically
-             :sitemap-file-entry-format "%t (%d)")))
+             :sitemap-file-entry-format "%t (%d)"
+             ;; :with-author nil
+             ;; :time-stamp-file nil
+             )))
 
 (setq org-safe-remote-resources
       '("\\`https://fniessen\\.github\\.io/org-html-themes/org/theme-readtheorg\\.setup\\'"))

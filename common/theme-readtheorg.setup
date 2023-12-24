@@ -7,7 +7,7 @@
 # fonts
 #+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono&?family=Open+Sans" rel="stylesheet" />
 
-#+OPTIONS: toc:nil creator:nil
+#+OPTIONS: toc:nil html-postamble:t
 
 #+HTML_HEAD: <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 #+HTML_HEAD: <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
