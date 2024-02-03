@@ -6,7 +6,7 @@
 <!-- 2024-02-03 Sat 06:19 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Richard Davis, Compositeur</title>
+<title>LilyPond Files as Functions</title>
 <meta name="author" content="Richard Davis" />
 <meta name="generator" content="Org Mode" />
 <style>
@@ -201,9 +201,9 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Richard Davis, Compositeur
+<h1 class="title">LilyPond Files as Functions
 <br />
-<span class="subtitle">A propos</span>
+<span class="subtitle">Richard Davis, Blog</span>
 </h1>
 <div class="org-center">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -219,69 +219,122 @@
 <col  class="org-left" />
 
 <col  class="org-left" />
+
+<col  class="org-left" />
 </colgroup>
 <tbody>
 <tr>
-<td class="org-left"><a href="index.html">Accueil</a></td>
-<td class="org-left"><a href="about.html">A propos</a></td>
-<td class="org-left"><a href="events.html">Evénements</a></td>
-<td class="org-left"><a href="listening.html">L'écoute</a></td>
-<td class="org-left"><a href="../en/index.html">EN</a></td>
+<td class="org-left"><a href="../index.html">Home</a></td>
+<td class="org-left"><a href="../about.html">About</a></td>
+<td class="org-left"><a href="../events.html">Events</a></td>
+<td class="org-left"><a href="../listening.html">Listening</a></td>
+<td class="org-left"><a href="index.html">Blog</a></td>
+<td class="org-left"><a href="../../fr/index.html">FR</a></td>
 </tr>
 </tbody>
 </table>
 </div>
 
 <p>
-Traduction française par <a href="https://deepl.com">DeepL</a>.
-</p>
-
-<div id="outline-container-press-introduction" class="outline-2">
-<h2 id="press-introduction">Introduction</h2>
-<div class="outline-text-2" id="text-press-introduction">
-<p>
-Salutations !
-Je m'appelle Richard Davis.
-Je suis compositeur, altiste et professeur, basé à Montréal et au Massachusetts.
-Mes principaux intérêts en matière de composition sont l'intertextualité, l'électronique en direct, la musique vocale ou à émulation vocale, et la composition assistée par ordinateur.
-Avec l'alto, je me spécialise dans l'interprétation de la musique contemporaine.
-</p>
-</div>
-</div>
-
-<div id="outline-container-press-bio" class="outline-2">
-<h2 id="press-bio">Bio</h2>
-<div class="outline-text-2" id="text-press-bio">
-<p>
-Richard Davis est un compositeur qui s'intéresse principalement à l'intertextualité, à l'électronique en direct, à la musique vocale ou à émulation vocale et à la composition assistée par ordinateur. Il est également altiste et se consacre principalement à l'interprétation de la musique contemporaine.
-Richard est originaire de Westford, Massachusetts, aux États-Unis, et réside actuellement à Montréal.
+Salutations!
 </p>
 
 <p>
-Récemment, Richard a achevé son travail en tant que premier étudiant compositeur en résidence au studio vocal de McGill, qui a abouti à la première mondiale en 2022 de son opéra fātō profugī, qui présente un commentaire intertextuel sur l'histoire originale de Didon et Énée, tirée de l'Énéide de Vergile.
+I'm very gradually switching to LilyPond as my main notation software.
+As part of this, I'm trying to optimize my workflow as much as possible so as to minimize overall pain.
+One way to do so is with scheme <a href="http://lilypond.org/doc/v2.25/Documentation/notation/substitution-function-syntax">music functions</a>, which enable the programmer to substitute arguments into a music expression.
+This is incredibly powerful, but it does have its limitations, the main one being that it can only return music, not a score or something like that.
 </p>
 
 <p>
-À la suite de ce projet, Richard a également collaboré avec l'altiste Marilou Lepage sur sa pièce "Variations on an Excerpt", pour alto solo et électronique en direct.
+That's where this post comes in.
+I've developed a fun workaround that allows for calling a function-like object and getting back something that is not strictly music.
 </p>
 
+<div id="outline-container-orgc91fc83" class="outline-2">
+<h2 id="orgc91fc83">Explanation</h2>
+<div class="outline-text-2" id="text-orgc91fc83">
 <p>
-Plus récemment, Richard a collaboré avec la vocaliste Dani Claxton pour produire "Till This Moment", une œuvre dramatique pour vocaliste et électronique en direct qui explore des scènes cruciales de "Pride and Prejudice" de Jane Austen.
-</p>
-
-<p>
-Richard Davis est titulaire d'un baccalauréat en composition de l'École de musique Schulich de l'Université McGill, où il a étudié la composition musicale avec le professeur Sean Ferguson et l'interprétation à l'alto avec le professeur André Roy.
-Dans le cadre de ce même programme, il a également obtenu un B.A. Minor Concentration in computer science.
-Il est actuellement candidat à la maîtrise en musique à Schulich, où il étudie la composition musicale avec le professeur Jean Lesage.
+This workaround uses the <code>\include</code> functionality to treat a file like a function.
+Files on their own don't take parameters, but it is possible to make them behave like they do.
+The way to do so is by including variable substitutions and function calls (<code>\var</code> or <code>\func</code>) that are undefined in the function file.
+To pass parameters to the file, simply define those variables or functions before "calling" (or <code>\include</code>-ing) the file.
+These parameters can easily be redefined and the file can be called again with new values.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org548bf39" class="outline-2">
-<h2 id="org548bf39">CV</h2>
-<div class="outline-text-2" id="text-org548bf39">
+<div id="outline-container-org11e08c9" class="outline-2">
+<h2 id="org11e08c9">Example</h2>
+<div class="outline-text-2" id="text-org11e08c9">
 <p>
-Voici un lien vers mon <a href="https://davisrichard437.github.io/documents/Richard%20Davis%20-%20CV.pdf">CV</a> pour les personnes intéressées.
+When working with multi-movement pieces, which have a <code>\score</code> block for each movement, the <code>\score</code> is the most pressing thing to have a function for, and it is the reason I developed this workaround.
+In a piece, I'm working on right now, the score for each movement looks something like this:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-lilypond">\include "./common.ily"
+
+\score {
+  \header {
+    piece = \markup \movement-title \piece % piece undefined
+    tagline = ""
+  }
+
+  % partStaff defined in common.ily
+  \partStaff \instrName \shortInstrName \notes % all args undefined in this line
+
+  % my layout preferences
+  \layout {
+    \context { \Staff \override Hairpin.to-barline = ##f }
+    \context {
+      \Score
+      \override Glissando.minimum-length = 4
+      \override Glissando.springs-and-rods = #ly:spanner::set-spacing-rods
+      \override Glissando.thickness = 2
+      \override SpacingSpanner.shortest-duration-space = 4.0
+    }
+  }
+}
+</pre>
+</div>
+
+<p>
+Repeating this for every movement would be tedious, and if I had to change anything (e.g. a layout setting) I would have to do so for every one of seven movements.
+This becomes unmaintainable quickly.
+Instead, I do as described above, and <code>\include</code> this file like a function for when I need a score:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-lilypond">% normal header
+\version "2.24.3"
+\language "english"
+
+\include "../common/common.ily"
+% defs.ily defines all of the arguments the movementScore "function"
+\include "./defs.ily"
+
+% include the toplevel header for things like title, subtitle, composer, and
+% tagline
+\include "../book-header.ily"
+% call the function!
+\include "../common/movementScore.ily"
+</pre>
+</div>
+
+<p>
+And we're done!
+Excluding comments and blank lines, the score for each movement is six lines long, and is identical between movements.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb9afe38" class="outline-2">
+<h2 id="orgb9afe38">Conclusion</h2>
+<div class="outline-text-2" id="text-orgb9afe38">
+<p>
+In developing an engraving workflow in LilyPond, I imagine the most important area to focus my efforts will be these creative ways to minimize repetition and to streamline the writing process.
+Someday I'll hopefully have it down to a science, but in the meantime, if any readers have any tips or tricks they'd like to share, I'd love to hear about them via email at <a href="mailto:davisrichard437@gmail.com">davisrichard437@gmail.com</a>! 
 </p>
 </div>
 </div>

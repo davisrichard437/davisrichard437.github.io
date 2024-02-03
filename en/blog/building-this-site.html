@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-12-24 Sun 08:46 -->
+<!-- 2024-02-03 Sat 06:19 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Building this Site</title>
@@ -248,9 +248,9 @@ One new thing that I have made Emacs do for me is build this website.
 This proved harder than I expected, so I'll share some takeaways from the process.
 </p>
 
-<div id="outline-container-orgbe6da41" class="outline-2">
-<h2 id="orgbe6da41">Hosting</h2>
-<div class="outline-text-2" id="text-orgbe6da41">
+<div id="outline-container-orgc5b7629" class="outline-2">
+<h2 id="orgc5b7629">Hosting</h2>
+<div class="outline-text-2" id="text-orgc5b7629">
 <p>
 This is pretty easy; I just use <a href="https://pages.github.com/">GitHub Pages</a>.
 This also takes care of building the website via a <a href="https://docs.github.com/en/actions">GitHub Action</a> that installs Emacs, builds the site, and publishes its content to GitHub Pages.
@@ -264,9 +264,9 @@ I may someday want to migrate to a freer option like <a href="https://sr.ht/">sr
 </div>
 </div>
 
-<div id="outline-container-orge02e486" class="outline-2">
-<h2 id="orge02e486">Building the site</h2>
-<div class="outline-text-2" id="text-orge02e486">
+<div id="outline-container-org79622ad" class="outline-2">
+<h2 id="org79622ad">Building the site</h2>
+<div class="outline-text-2" id="text-org79622ad">
 <p>
 The build process that GitHub Actions runs to build the site's HTML files is the publishing feature of <a href="https://orgmode.org/">Org Mode</a>, the incredibly powerful outlining tool/organizer/document builder etc. for Emacs.
 This feature transforms files into other formats according user-defined project settings.
@@ -280,9 +280,9 @@ As there are already excellent sources on these topics, I will summarize briefly
 </div>
 </div>
 
-<div id="outline-container-org42fcd98" class="outline-2">
-<h2 id="org42fcd98">Setupfile</h2>
-<div class="outline-text-2" id="text-org42fcd98">
+<div id="outline-container-orga3ffe34" class="outline-2">
+<h2 id="orga3ffe34">Setupfile</h2>
+<div class="outline-text-2" id="text-orga3ffe34">
 <p>
 One thing I do (due to my lack of knowledge of HTML and CSS) is that I use a <code>setupfile</code> to provide nice HTML and CSS theming that I couldn't otherwise do myself.
 At the moment I'm using the ReadTheOrg theme (a ReadTheDocs clone) from the wonderful <a href="https://github.com/fniessen/org-html-themes"><code>org-html-themes</code></a> project.
@@ -333,18 +333,18 @@ In order to allow downloading the remote setupfile, in the publish script, I mus
 </div>
 </div>
 
-<div id="outline-container-org7c08cea" class="outline-2">
-<h2 id="org7c08cea">Blog</h2>
-<div class="outline-text-2" id="text-org7c08cea">
+<div id="outline-container-org2b45d01" class="outline-2">
+<h2 id="org2b45d01">Blog</h2>
+<div class="outline-text-2" id="text-org2b45d01">
 <p>
 The hardest part of this site was setting up the blog the way I wanted it.
 I relied a lot on <a href="https://writepermission.com/org-blogging-rss-feed.html">this wonderful article</a> to help me generate the RSS feed, though I had to tweak some functions to get it to function as I like it.
 </p>
 </div>
 
-<div id="outline-container-org050e946" class="outline-3">
-<h3 id="org050e946"><code>my/format-rss-feed-entry</code></h3>
-<div class="outline-text-3" id="text-org050e946">
+<div id="outline-container-org869f2e3" class="outline-3">
+<h3 id="org869f2e3"><code>my/format-rss-feed-entry</code></h3>
+<div class="outline-text-3" id="text-org869f2e3">
 <p>
 This function generates an RSS entry in an intermediate <code>rss.org</code> file.
 It functions by sanitizing the text of the blog post to a useful RSS description and inserting that in an Org Mode entry with the appropriate properties.
@@ -405,9 +405,9 @@ I make sure only the text of the article before the first heading (the introduct
 </div>
 </div>
 
-<div id="outline-container-orgb65188b" class="outline-3">
-<h3 id="orgb65188b">Project</h3>
-<div class="outline-text-3" id="text-orgb65188b">
+<div id="outline-container-org88a647a" class="outline-3">
+<h3 id="org88a647a">Project</h3>
+<div class="outline-text-3" id="text-org88a647a">
 <p>
 The final entry in <code>org-publish-project-alist</code> looks something like this:
 </p>
@@ -436,9 +436,9 @@ The final entry in <code>org-publish-project-alist</code> looks something like t
 </div>
 </div>
 
-<div id="outline-container-org3755cef" class="outline-2">
-<h2 id="org3755cef">Blog landing page</h2>
-<div class="outline-text-2" id="text-org3755cef">
+<div id="outline-container-org3dfc727" class="outline-2">
+<h2 id="org3dfc727">Blog landing page</h2>
+<div class="outline-text-2" id="text-org3dfc727">
 <p>
 The above does a great job to generate an RSS feed, but I also want to generate a landing page where the blog entries are that can be accessible to the rest of the site.
 This turned out to be a very similar process to the RSS feed, with only a few tweaks necessary to change the formatting as I wish.
@@ -471,9 +471,9 @@ Notably, the format functions have changed from the RSS project as the formattin
 </p>
 </div>
 
-<div id="outline-container-org3b1f574" class="outline-3">
-<h3 id="org3b1f574"><code>my/format-sitemap-entry</code></h3>
-<div class="outline-text-3" id="text-org3b1f574">
+<div id="outline-container-org8b39e30" class="outline-3">
+<h3 id="org8b39e30"><code>my/format-sitemap-entry</code></h3>
+<div class="outline-text-3" id="text-org8b39e30">
 <p>
 This function takes a single file within the <code>davisrichard437.github.io:blog</code> project (a single blog post) and transforms it into an unordered list entry.
 </p>
@@ -496,9 +496,9 @@ This function takes a single file within the <code>davisrichard437.github.io:blo
 </div>
 </div>
 
-<div id="outline-container-orgda6c36d" class="outline-3">
-<h3 id="orgda6c36d"><code>my/format-sitemap</code></h3>
-<div class="outline-text-3" id="text-orgda6c36d">
+<div id="outline-container-org5ca3830" class="outline-3">
+<h3 id="org5ca3830"><code>my/format-sitemap</code></h3>
+<div class="outline-text-3" id="text-org5ca3830">
 <p>
 This function formats the sitemap (in an intermediate file, <code>index.org</code>, that will subsequently be published to HTML) by adding all of the in-buffer settings and preamble text I want.
 </p>
@@ -522,17 +522,17 @@ This function formats the sitemap (in an intermediate file, <code>index.org</cod
 </div>
 </div>
 
-<div id="outline-container-orga231bfb" class="outline-2">
-<h2 id="orga231bfb">Quality of life</h2>
-<div class="outline-text-2" id="text-orga231bfb">
+<div id="outline-container-org49158b5" class="outline-2">
+<h2 id="org49158b5">Quality of life</h2>
+<div class="outline-text-2" id="text-org49158b5">
 <p>
 Beyond the above, I have made a few quality of life improvements that help me develop the site better.
 </p>
 </div>
 
-<div id="outline-container-orgf0b0155" class="outline-3">
-<h3 id="orgf0b0155">Publish script</h3>
-<div class="outline-text-3" id="text-orgf0b0155">
+<div id="outline-container-org9dd74ee" class="outline-3">
+<h3 id="org9dd74ee">Publish script</h3>
+<div class="outline-text-3" id="text-org9dd74ee">
 <p>
 The <code>publish.el</code> file at the root of the repository is itself a script, that defines Emacs as its interpreter with a shebang, as follows:
 </p>
@@ -558,9 +558,9 @@ This is essential for it to be able to run via a GitHub Action.
 </div>
 </div>
 
-<div id="outline-container-org6093451" class="outline-3">
-<h3 id="org6093451">Local development</h3>
-<div class="outline-text-3" id="text-org6093451">
+<div id="outline-container-orgdf5bbbd" class="outline-3">
+<h3 id="orgdf5bbbd">Local development</h3>
+<div class="outline-text-3" id="text-orgdf5bbbd">
 <p>
 One thing I found when doing local development is that <code>org-publish</code> will not remove published files if their source file has been removed.
 This can make it a little challenging to know what will actually show when I push the repository.
@@ -591,9 +591,9 @@ This way I have a clean repository before publishing.
 </div>
 </div>
 
-<div id="outline-container-orgff34a61" class="outline-3">
-<h3 id="orgff34a61"><code>simple-httpd</code></h3>
-<div class="outline-text-3" id="text-orgff34a61">
+<div id="outline-container-orgd6c158f" class="outline-3">
+<h3 id="orgd6c158f"><code>simple-httpd</code></h3>
+<div class="outline-text-3" id="text-orgd6c158f">
 <p>
 I like to use the <a href="https://github.com/snadjperge/simple-httpd"><code>simple-httpd</code></a> package to test the website as I build it.
 Once it's installed, I publish the site once and run <code>M-x httpd-serve-directory RET path/to/public</code>.
@@ -604,9 +604,9 @@ When I'm done I can run <code>M-x httpd-stop</code>.
 </div>
 </div>
 
-<div id="outline-container-orgbc2e849" class="outline-2">
-<h2 id="orgbc2e849">Conclusion</h2>
-<div class="outline-text-2" id="text-orgbc2e849">
+<div id="outline-container-org92ac6ef" class="outline-2">
+<h2 id="org92ac6ef">Conclusion</h2>
+<div class="outline-text-2" id="text-org92ac6ef">
 <p>
 Emacs is pretty cool!
 This setup works pretty well for me and it makes it much easier for me to maintain a website.
@@ -621,7 +621,7 @@ Comments, suggestions, questions, etc. are always welcome at <a href="mailto:dav
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="copyright">© Richard Davis, 2023-12-24 Sun 08:46</p>
+<p class="copyright">© Richard Davis, 2024-02-03 Sat 06:19</p>
 </div>
 </body>
 </html>
