@@ -6,6 +6,7 @@
 #+HTML_HEAD: <link href="/styles/style.css" rel="stylesheet" />
 # fonts
 #+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono&?family=Open+Sans" rel="stylesheet" />
+#+HTML_HEAD: <link rel="alternate" type="application/rss+xml" title="Blog RSS Feed" href="/en/blog/rss.xml">
 
 #+OPTIONS: toc:nil html-postamble:t
 
