@@ -152,7 +152,7 @@ PROJECT is the current project."
              )
        (list "davisrichard437.github.io:assets"
              :base-directory "./assets/"
-             :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|woff2\\|ttf\\|ico"
+             :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|woff2\\|ttf\\|ico\\|jpeg"
              :publishing-directory "./public"
              :recursive t
              :publishing-function #'org-publish-attachment)

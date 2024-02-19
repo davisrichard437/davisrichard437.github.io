@@ -34,6 +34,6 @@ Richard Davis holds a B.Mus. in composition from the Schulich School of Music at
 As part of the same program he also attained a B.A. Minor Concentration in computer science.
 He is currently an M.Mus. candidate at Schulich, where he is studying music composition under Professor Jean Lesage.
 
-* CV
+* Misc.
 
-Here is a link to my [[https://davisrichard437.github.io/documents/Richard Davis - CV.pdf][CV]] for those interested.
+Here are links to my [[https://richarddavis.xyz/documents/Richard Davis - CV.pdf][CV]] and [[https://richarddavis.xyz/images/portrait.jpeg][portrait]] for those interested.
