@@ -54,6 +54,25 @@ Achetez la partition et le texte d'accompagnement ici :
 
 * Composition
 
+** ōdī et amō (2024)
+
+Cette œuvre tire son nom du poème qui constitue le sujet du septième et dernier mouvement : "ōdī et amō", le quatre-vingt-cinquième des /Carmina/ du poète latin classique Gaius Valerius Catullus.
+Le titre de ce poème se traduit par "Je hais et j'aime", deux émotions qui inspirent les titres et les personnages des quatrième et cinquième mouvements du cycle.
+Ces trois mouvements forment le centre d'un cycle de pièces de caractère, qui traitent chacune de sujets tels que la course, la danse, l'essai et le chant.
+
+Sur le plan structurel, la pièce s'inspire d'une structure de données couramment utilisée en informatique, appelée liste chaînée, qui permet de stocker des listes d'objets dans la mémoire d'un ordinateur.
+Une liste chaînée est composée d'une séquence de nœuds qui contiennent chacun deux éléments : l'élément à cette position dans la liste et un pointeur vers le nœud suivant dans la liste.
+Les mouvements de cette pièce sont comme ces nœuds ; chacun a deux parties qui correspondent aux composants d'un nœud d'une liste chaînée.
+La première, qui représente la majeure partie de la durée du mouvement, est l'"élément" à ce point de la liste, ou un passage de musique basé sur une idée unique.
+Le second, qui apparaît à la fin de chaque pièce, représente le "pointeur" vers le nœud suivant de la liste ; il s'agit d'une référence brève, souvent surprenante, au contenu du mouvement suivant.
+
+Les mouvements de cette pièce (ou les nœuds de cette liste liée) sont grosso modo classés par ordre croissant en termes de lyrisme.
+Commençant à un extrême instrumental, chaque mouvement successif est plus lyrique que le précédent, atteignant la limite du lyrisme de l'alto et la dépassant finalement dans le dernier mouvement.
+
+Exécuté le dimanche 31 mars 2024 par mes soins.
+
+{{{yt(2-0b_wxcztg)}}}
+
 ** Variations on an Excerpt (2022)
 
 L'œuvre "Variations sur un extrait" présente une approche non conventionnelle du genre thème et variations, en inversant son facteur de forme traditionnel.
