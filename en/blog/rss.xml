@@ -14,10 +14,10 @@
   <link></link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Wed, 03 Apr 2024 13:14:05 +0000</pubDate>
-  <lastBuildDate>Wed, 03 Apr 2024 13:14:05 +0000</lastBuildDate>
-  <generator>Emacs 27.1 Org-mode 9.6.24</generator>
-  <webMaster>runner@fv-az774-498 (nil)</webMaster>
+  <pubDate>Sat, 27 Apr 2024 08:23:22 +0000</pubDate>
+  <lastBuildDate>Sat, 27 Apr 2024 08:23:22 +0000</lastBuildDate>
+  <generator>Emacs 27.1 Org-mode 9.3</generator>
+  <webMaster>runner@fv-az1538-237 (nil)</webMaster>
   <image>
     <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>Richard Davis, Composer</title>
@@ -26,9 +26,28 @@
 
 
   <item>
+    <title>Linked List Music</title>
+    <link>./linked-list-music.html</link>
+    <author>runner@fv-az1538-237 (nil)</author>
+    <guid isPermaLink="false">./linked-list-music.html</guid>
+    <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+
+    <description><![CDATA[<p>
+    Salutations!
+    </p>
+
+    <p>
+    I'm a nerd.
+    One of the things I'm a nerd about is music; another is computer science.
+    Only very rarely do the two meet, as they did in a recent piece I wrote.
+    In this post I'll talk a little bit about a piece I wrote based on the concept of a linked list.
+    </p>
+    ]]></description>
+  </item>
+  <item>
     <title>LilyPond Files as Functions</title>
     <link>./lilypond-files-as-functions.html</link>
-    <author>runner@fv-az774-498 (nil)</author>
+    <author>runner@fv-az1538-237 (nil)</author>
     <guid isPermaLink="false">./lilypond-files-as-functions.html</guid>
     <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
 
@@ -52,7 +71,7 @@
   <item>
     <title>Building this Site</title>
     <link>./building-this-site.html</link>
-    <author>runner@fv-az774-498 (nil)</author>
+    <author>runner@fv-az1538-237 (nil)</author>
     <guid isPermaLink="false">./building-this-site.html</guid>
     <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
 
@@ -73,7 +92,7 @@
   <item>
     <title>Introduction</title>
     <link>./introduction.html</link>
-    <author>runner@fv-az774-498 (nil)</author>
+    <author>runner@fv-az1538-237 (nil)</author>
     <guid isPermaLink="false">./introduction.html</guid>
     <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
 

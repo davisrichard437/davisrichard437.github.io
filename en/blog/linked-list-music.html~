@@ -6,7 +6,7 @@
 <!-- 2024-04-27 Sat 08:23 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Richard Davis, Composer</title>
+<title>Linked List Music</title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="Richard Davis" />
 <style type="text/css">
@@ -248,9 +248,9 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Richard Davis, Composer
+<h1 class="title">Linked List Music
 <br />
-<span class="subtitle">Events</span>
+<span class="subtitle">Richard Davis, Blog</span>
 </h1>
 <div class="org-center">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -271,55 +271,148 @@ for the JavaScript code in this tag.
 </colgroup>
 <tbody>
 <tr>
-<td class="org-left"><a href="index.html">Home</a></td>
-<td class="org-left"><a href="about.html">About</a></td>
-<td class="org-left"><a href="events.html">Events</a></td>
-<td class="org-left"><a href="listening.html">Listening</a></td>
-<td class="org-left"><a href="blog/index.html">Blog</a></td>
-<td class="org-left"><a href="../fr/index.html">FR</a></td>
+<td class="org-left"><a href="../index.html">Home</a></td>
+<td class="org-left"><a href="../about.html">About</a></td>
+<td class="org-left"><a href="../events.html">Events</a></td>
+<td class="org-left"><a href="../listening.html">Listening</a></td>
+<td class="org-left"><a href="index.html">Blog</a></td>
+<td class="org-left"><a href="../../fr/index.html">FR</a></td>
 </tr>
 </tbody>
 </table>
 </div>
 
-<div id="outline-container-org869dbd0" class="outline-2">
-<h2 id="events-upcoming">Upcoming</h2>
-<div class="outline-text-2" id="text-events-upcoming">
 <p>
-Nothing at the moment!
+Salutations!
+</p>
+
+<p>
+I'm a nerd.
+One of the things I'm a nerd about is music; another is computer science.
+Only very rarely do the two meet, as they did in a recent piece I wrote.
+In this post I'll talk a little bit about a piece I wrote based on the concept of a linked list.
+</p>
+
+<div id="outline-container-org6d4ed39" class="outline-2">
+<h2 id="org6d4ed39">Listening</h2>
+<div class="outline-text-2" id="text-org6d4ed39">
+<p>
+I got to play this piece myself, which posed a lot of interesting challenges.
+Here's a video of the concert; give it a listen and then keep reading!
+</p>
+
+<div class="video">  <iframe src="https://www.youtube-nocookie.com/embed/2-0b_wxcztg" allowfullscreen></iframe></div>
+</div>
+</div>
+
+<div id="outline-container-orgc23ff23" class="outline-2">
+<h2 id="orgc23ff23">Program Note</h2>
+<div class="outline-text-2" id="text-orgc23ff23">
+<p>
+The linked list aspect of the piece may be hard to hear at first, especially when you don't know what scale you're listening at.
+I'll reproduce the entire program note here, to hopefully shed some light on the concept.
+</p>
+
+<blockquote>
+<p>
+This work takes its name from the poem which is the subject of the seventh and final movement: "ōdī et amō," the eighty-fifth of the <i>Carmina</i> by Classical Latin poet Gaius Valerius Catullus.
+The title of this poem translates to "I hate and I love," two emotions which inform the titles and characters of the fourth and fifth movements of the cycle.
+These three movements form the center of a cycle of character pieces, which each include topics such as running, dancing, trying, and singing.
+</p>
+
+<p>
+Structurally, the piece is inspired by a data structure commonly used in computer science, called a linked list, which functions to store lists of objects in a computer's memory.
+A linked list is composed of a sequence of nodes that each contain two elements: the item at this position in the list, and a pointer to the next node in the list.
+The movements of this piece are like these nodes; each has two parts that correspond to the components of a node of a linked list.
+The first, comprising the majority of the duration of the movement, is the "item" at this point in the list, or a passage of music based on a single idea.
+The second comes at the end of each piece and represents the "pointer" to the next node in the list; this is a brief, often surprising reference to the content of the following movement.
+</p>
+
+<p>
+The movements of this piece (or the nodes in this linked list) are roughly sorted in ascending order in terms of lyricality.
+Beginning at an instrumental extreme, each successive movement is more lyrical than the last, reaching the limit of how lyrical the viola can be, and finally going beyond it in the last movement.
+</p>
+</blockquote>
+
+<p>
+This is generally how I explain the concept to music people.
+It may need one slight addendum for my tech friends: a movement of a multi-movement piece can be thought of roughly like a song on an album, only you generally don't shuffle movements of a piece, you play them all back-to-back in the original order.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org6e75bbb" class="outline-2">
-<h2 id="org6e75bbb">Recent</h2>
-<div class="outline-text-2" id="text-org6e75bbb">
-</div>
-<div id="outline-container-orgee1a898" class="outline-3">
-<h3 id="orgee1a898">DCS Concert <span class="timestamp-wrapper"><span class="timestamp">&lt;2023-04-14 Fri 15:00&gt;</span></span></h3>
-<div class="outline-text-3" id="text-orgee1a898">
+<div id="outline-container-orgf69c322" class="outline-2">
+<h2 id="orgf69c322">Details</h2>
+<div class="outline-text-2" id="text-orgf69c322">
 <p>
-Dani Claxton will be performing my work "Till this Moment" for solo vocalist and electronics at the upcoming Digital Composition Studio's Class Concert.
+In order to concretely understand how this piece is structured like a linked list, we must first understand the nature of the "item," or the main idea of each movement.
+From there, the "pointers" naturally fall into place.
 </p>
 
 <p>
-"Till This Moment" is a piece for voice and live electronics that adapts the pivotal chapters of Jane Austen's <i>Pride and Prejudice</i>&#x2014;Mr. Darcy's letter and Elizabeth Bennet's reaction to it.
-In reading this letter, Elizabeth is confronted with information incompatible with her current worldview, first denying its contents, then considering it more carefully, and finally understanding its truth, ultimately leaving her a transformed and improved person.
-The mixed format enables the construction of a dramatic dichotomy between representations of Elizabeth's conscious will, as presented by the performer, and those of the forces exerted upon her by her character, her peers, and the narrative&#x2014;in a word, her soul&#x2014;which are reflected within the electronics.
+The first movement, titled "currō" ("I run"), is characterized by fast-moving notes exclusively on the A string.
+The last note, however, is a two-note chord played on both the A and D strings, which is something of a slight surprise.
+This last note is the pointer to the next movement.
+</p>
+
+<p>
+The second movement, titled "saltō" ("I dance"), therefore features almost entirely by two-note chords.
+(This movement refers to dances primarily in terms of rhythm; some listeners may recognize a <a href="https://en.wikipedia.org/wiki/Siciliana">Siciliana</a> pattern.)
+These eventually break out into fast runs, which represent the pointer to the next movement.
+</p>
+
+<p>
+The third movement, humorously titled "cōnor" ("I try") because it is quite hard to play, focuses on these fast runs.
+They eventually slow into something more melodic, finally reaching a <i>glissando</i>, or a smooth slide between notes, near the end of the piece.
+This <i>glissando</i> is the pointer to the fourth movement.
+</p>
+
+<p>
+And in turn, the fourth movement, titled "ōdī" ("I hate") is based primarily on <i>glissandi</i>.
+This does not, however, account for all of the surprising (and hopefully, shocking and revolting) character of this movement.
+I also include some passages that refer to the texture first movement, in order to lend a turbulent and contrasting (but no less hateful) character to the movement.
+At the climax, the music reaches and plays around with a new repeated-note figure, which serves as the pointer to the following movement.
+</p>
+
+<p>
+The fifth movement, titled "amō" ("I love") is constructed almost entirely on this repeated-note figure, save for a contrasting middle section of the most vulnerable sustained notes possible.
+The pointer in this movement is the most subtle of them all, in that it melodically resembles the opening of the follow movement.
+This change in material is signaled by the first and only two notes in the movement that are neither repeated nor sustained.
+</p>
+
+<p>
+The sixth movement, titled "canō" ("I sing"), begins with, and is largely based on the melodic idea that ended the previous movement.
+The main character of this movement is, as its title suggests, maximally lyrical.
+And at the end, when the viola no longer suffices, I sing to make up the difference.
+This singing is the most obvious pointer to the next movement.
+</p>
+
+<p>
+The seventh and final movement, titled "ōdī et amō," ("I hate and I love"), is, needless to say, a little out of place for a solo viola piece: I sing the Catullus poem while playing drones on the viola.
+There is no following movement, so this one ends with a "null" pointer, or a pointer to nothing, represented (with a good deal of artistic license) by the passage with the viola alone at the end.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orga2a9a69" class="outline-3">
-<h3 id="orga2a9a69">MASC Concert <span class="timestamp-wrapper"><span class="timestamp">&lt;2023-03-19 Sun 20:00&gt;</span></span></h3>
-<div class="outline-text-3" id="text-orga2a9a69">
+<div id="outline-container-org43013ed" class="outline-2">
+<h2 id="org43013ed">Conclusion</h2>
+<div class="outline-text-2" id="text-org43013ed">
 <p>
-My 2019 solo clarinet work "One need not be a Chamber" will be performed by clarinetist Alexander Ortins and narrated by Dani Claxton at the McGill Association of Student Composers' <a href="https://www.mcgill.ca/music/channels/event/mcgill-association-student-composers-concert-342228">Winter Concert</a>.
+I had a lot of fun writing this piece!
+I hope you had just as much fun listening to it as I did writing it, and I hope that reading this helped it make some more sense.
+If you like, give it another listen and follow along with the notes above!
 </p>
 
 <p>
-"One need not be a Chamber" is a work for solo clarinet and optional narrator, based on the Emily Dickinson poem "One need not be a Chamber&#x2014;to be Haunted&#x2014;".
-The music maintains an intimate, line-by-line relationship with the poem, translating various motifs and features of the text into leitmotifs&#x2014;in the loosest sense&#x2014;that accompany the emotional arc of Dickinson's poem.
+Anecdotally, after I performed this in concert (where I read the program note before I started), after which a computer science student came to tell me that he could hear the structure, especially with the singing pointer.
+I enjoyed writing this enough that I think I may soon do more CS-inspired pieces.
+I could do something similar for other data structures like trees, or sorting algorithms, etc.
+I think it'll be fun!
+</p>
+
+<div class="org-center">
+<p>
+<a href="https://craftering.systemcrafters.net/@davisrichard437/previous">←</a> <a href="https://craftering.systemcrafters.net">Craftering</a> <a href="https://craftering.systemcrafters.net/@davisrichard437/next">→</a>
 </p>
 </div>
 </div>
