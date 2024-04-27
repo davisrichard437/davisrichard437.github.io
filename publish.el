@@ -183,6 +183,7 @@ PROJECT is the current project."
              :base-directory "./content/en/blog"
              :base-extension "org"
              :publishing-directory "./public/en/blog"
+             :publishing-function #'org-html-publish-to-html
              :recursive nil
              :exclude (regexp-opt '("rss.org"))
              :html-link-use-abs-url t
