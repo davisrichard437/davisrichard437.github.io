@@ -124,7 +124,9 @@ representation for the files to include, as returned by
           "#+SETUPFILE: ../../../common/theme-readtheorg.setup\n\n"
           "#+INCLUDE: ../../../common/header-en.org\n\n"
           "Subscribe to the RSS feed [[file:./rss.xml][here]]!\n\n"
-          (org-list-to-subtree list 1 '(:icount "" :istart ""))))
+          (org-list-to-subtree list 1 '(:icount "" :istart ""))
+          "\n"
+          "#+INCLUDE: ../../../common/blog-footer.org"))
 
 (defun my/format-sitemap-entry (file style project)
   "Format ENTRY for the RSS feed.
