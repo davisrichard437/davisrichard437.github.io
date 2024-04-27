@@ -29,7 +29,7 @@
 (unless package-archive-contents
   (package-refresh-contents))
 
-(dolist (pkg '(org-contrib ox-rss htmlize))
+(dolist (pkg '(ox-rss htmlize))
   (unless (package-installed-p pkg)
     (package-install pkg)))
 
