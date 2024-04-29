@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-04-27 Sat 08:23 -->
+<!-- 2024-04-29 Mon 06:07 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Linked List Music</title>
@@ -293,9 +293,9 @@ Only very rarely do the two meet, as they did in a recent piece I wrote.
 In this post I'll talk a little bit about a piece I wrote based on the concept of a linked list.
 </p>
 
-<div id="outline-container-org6d4ed39" class="outline-2">
-<h2 id="org6d4ed39">Listening</h2>
-<div class="outline-text-2" id="text-org6d4ed39">
+<div id="outline-container-org61f5bab" class="outline-2">
+<h2 id="org61f5bab">Listening</h2>
+<div class="outline-text-2" id="text-org61f5bab">
 <p>
 I got to play this piece myself, which posed a lot of interesting challenges.
 Here's a video of the concert; give it a listen and then keep reading!
@@ -305,9 +305,9 @@ Here's a video of the concert; give it a listen and then keep reading!
 </div>
 </div>
 
-<div id="outline-container-orgc23ff23" class="outline-2">
-<h2 id="orgc23ff23">Program Note</h2>
-<div class="outline-text-2" id="text-orgc23ff23">
+<div id="outline-container-orgdc742a1" class="outline-2">
+<h2 id="orgdc742a1">Program Note</h2>
+<div class="outline-text-2" id="text-orgdc742a1">
 <p>
 The linked list aspect of the piece may be hard to hear at first, especially when you don't know what scale you're listening at.
 I'll reproduce the entire program note here, to hopefully shed some light on the concept.
@@ -341,9 +341,9 @@ It may need one slight addendum for my tech friends: a movement of a multi-movem
 </div>
 </div>
 
-<div id="outline-container-orgf69c322" class="outline-2">
-<h2 id="orgf69c322">Details</h2>
-<div class="outline-text-2" id="text-orgf69c322">
+<div id="outline-container-org0a54206" class="outline-2">
+<h2 id="org0a54206">Details</h2>
+<div class="outline-text-2" id="text-org0a54206">
 <p>
 In order to concretely understand how this piece is structured like a linked list, we must first understand the nature of the "item," or the main idea of each movement.
 From there, the "pointers" naturally fall into place.
@@ -394,9 +394,9 @@ There is no following movement, so this one ends with a "null" pointer, or a poi
 </div>
 </div>
 
-<div id="outline-container-org43013ed" class="outline-2">
-<h2 id="org43013ed">Conclusion</h2>
-<div class="outline-text-2" id="text-org43013ed">
+<div id="outline-container-org0eeb11e" class="outline-2">
+<h2 id="org0eeb11e">Conclusion</h2>
+<div class="outline-text-2" id="text-org0eeb11e">
 <p>
 I had a lot of fun writing this piece!
 I hope you had just as much fun listening to it as I did writing it, and I hope that reading this helped it make some more sense.
@@ -419,7 +419,7 @@ I think it'll be fun!
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="copyright">© Richard Davis, 2024-04-27 Sat 08:23</p>
+<p class="copyright">© Richard Davis, 2024-04-29 Mon 06:07</p>
 </div>
 </body>
 </html>
