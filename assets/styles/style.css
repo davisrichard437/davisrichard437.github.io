@@ -4,6 +4,7 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+.copyright,
 .org-center {
     margin: auto;
     justify-content: center;
