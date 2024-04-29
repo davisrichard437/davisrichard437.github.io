@@ -12,14 +12,6 @@ html {
     display: flex;
 }
 
-a {
-    color: #8be9fd;
-}
-
-a:visited {
-    color: #bd93f9;
-}
-
 pre {
     font-family: 'JetBrains Mono', monospace;
 }
@@ -41,4 +33,19 @@ p.copyright {
 
 code {
     font-family: 'JetBrains Mono', monospace;
+    color: #ff79c6;
+}
+
+a {
+    color: #8be9fd;
+}
+
+a:visited {
+    color: #bd93f9;
+}
+
+#content,
+.content {
+    max-width: 100%;
+    width: 60em;
 }
