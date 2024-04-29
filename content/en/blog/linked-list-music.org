@@ -87,5 +87,3 @@ Anecdotally, after I performed this in concert (where I read the program note be
 I enjoyed writing this enough that I think I may soon do more CS-inspired pieces.
 I could do something similar for other data structures like trees, or sorting algorithms, etc.
 I think it'll be fun!
-
-#+INCLUDE: ../../../common/blog-footer.org

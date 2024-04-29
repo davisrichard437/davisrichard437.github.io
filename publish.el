@@ -125,8 +125,7 @@ representation for the files to include, as returned by
           "#+INCLUDE: ../../../common/header-en.org\n\n"
           "Subscribe to the RSS feed [[file:./rss.xml][here]]!\n\n"
           (org-list-to-subtree list 1 '(:icount "" :istart ""))
-          "\n"
-          "#+INCLUDE: ../../../common/blog-footer.org"))
+          "\n"))
 
 (defun my/format-sitemap-entry (file style project)
   "Format ENTRY for the RSS feed.
@@ -196,6 +195,14 @@ PROJECT is the current project."
              :sitemap-function #'my/format-sitemap
              :sitemap-sort-files 'anti-chronologically
              :sitemap-file-entry-format "%t (%d)"
+             :html-postamble-format '((en "<div class=\"craftering\">
+  <a href=\"https://craftering.systemcrafters.net/@davisrichard437/previous\">←</a>
+  <a href=\"https://craftering.systemcrafters.net/\">craftering</a>
+  <a href=\"https://craftering.systemcrafters.net/@davisrichard437/next\">→</a>
+</div>
+<div class=\"org-center\">
+  <p class=\"copyright\">© %a, %T</p>
+</div>"))
              ;; :with-author nil
              ;; :time-stamp-file nil
              )))

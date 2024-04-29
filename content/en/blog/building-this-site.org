@@ -279,5 +279,3 @@ All I need at this point is to figure out how to get a good mono-space font for 
 
 You can access the source for this website [[https://github.com/davisrichard437/davisrichard437.github.io][here]].
 Comments, suggestions, questions, etc. are always welcome at [[mailto:davisrichard437@gmail.com][davisrichard437@gmail.com]]!
-
-#+INCLUDE: ../../../common/blog-footer.org

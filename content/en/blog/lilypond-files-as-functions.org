@@ -82,5 +82,3 @@ Excluding comments and blank lines, the score for each movement is six lines lon
 
 In developing an engraving workflow in LilyPond, I imagine the most important area to focus my efforts will be these creative ways to minimize repetition and to streamline the writing process.
 Someday I'll hopefully have it down to a science, but in the meantime, if any readers have any tips or tricks they'd like to share, I'd love to hear about them via email at [[mailto:davisrichard437@gmail.com][davisrichard437@gmail.com]]! 
-
-#+INCLUDE: ../../../common/blog-footer.org

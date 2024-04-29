@@ -13,5 +13,3 @@ I'll be using this blog to talk about things that are interesting to me.
 This primarily refers to music and tech, though there could be a couple miscellaneous things sprinkled in here and there.
 
 I hope you enjoy!
-
-#+INCLUDE: ../../../common/blog-footer.org

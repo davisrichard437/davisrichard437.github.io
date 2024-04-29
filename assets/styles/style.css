@@ -4,7 +4,6 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-#postamble,
 .org-center {
     margin: auto;
     justify-content: center;
@@ -46,6 +45,13 @@ a:visited {
 
 #content,
 .content {
+    margin: auto;
     max-width: 100%;
     width: 60em;
+}
+
+.craftering {
+    margin: auto;
+    width: 50%;
+    text-align: center;
 }
