@@ -10,26 +10,26 @@
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Richard Davis, Composer</title>
-  <atom:link href="./rss.xml" rel="self" type="application/rss+xml" />
-  <link></link>
+  <atom:link href="https://richarddavis.xyz/en/blog/rss.xml" rel="self" type="application/rss+xml" />
+  <link>https://richarddavis.xyz/en/blog/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 03 Jun 2024 19:48:00 +0000</pubDate>
-  <lastBuildDate>Mon, 03 Jun 2024 19:48:00 +0000</lastBuildDate>
+  <pubDate>Thu, 13 Jun 2024 01:51:02 +0000</pubDate>
+  <lastBuildDate>Thu, 13 Jun 2024 01:51:02 +0000</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.3</generator>
-  <webMaster>runner@fv-az1208-317 (nil)</webMaster>
+  <webMaster>runner@fv-az1249-571 (nil)</webMaster>
   <image>
     <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>Richard Davis, Composer</title>
-    <link></link>
+    <link>https://richarddavis.xyz/en/blog/</link>
   </image>
 
 
   <item>
     <title>Linked List Music</title>
-    <link>./linked-list-music.html</link>
-    <author>runner@fv-az1208-317 (nil)</author>
-    <guid isPermaLink="false">./linked-list-music.html</guid>
+    <link>https://richarddavis.xyz/en/blog/linked-list-music.html</link>
+    <author>runner@fv-az1249-571 (nil)</author>
+    <guid isPermaLink="false">https://richarddavis.xyz/en/blog/linked-list-music.html</guid>
     <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
 
     <description><![CDATA[<p>
@@ -46,9 +46,9 @@
   </item>
   <item>
     <title>LilyPond Files as Functions</title>
-    <link>./lilypond-files-as-functions.html</link>
-    <author>runner@fv-az1208-317 (nil)</author>
-    <guid isPermaLink="false">./lilypond-files-as-functions.html</guid>
+    <link>https://richarddavis.xyz/en/blog/lilypond-files-as-functions.html</link>
+    <author>runner@fv-az1249-571 (nil)</author>
+    <guid isPermaLink="false">https://richarddavis.xyz/en/blog/lilypond-files-as-functions.html</guid>
     <pubDate>Sat, 03 Feb 2024 00:00:00 +0000</pubDate>
 
     <description><![CDATA[<p>
@@ -70,9 +70,9 @@
   </item>
   <item>
     <title>Building this Site</title>
-    <link>./building-this-site.html</link>
-    <author>runner@fv-az1208-317 (nil)</author>
-    <guid isPermaLink="false">./building-this-site.html</guid>
+    <link>https://richarddavis.xyz/en/blog/building-this-site.html</link>
+    <author>runner@fv-az1249-571 (nil)</author>
+    <guid isPermaLink="false">https://richarddavis.xyz/en/blog/building-this-site.html</guid>
     <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
 
     <description><![CDATA[<p>
@@ -91,9 +91,9 @@
   </item>
   <item>
     <title>Introduction</title>
-    <link>./introduction.html</link>
-    <author>runner@fv-az1208-317 (nil)</author>
-    <guid isPermaLink="false">./introduction.html</guid>
+    <link>https://richarddavis.xyz/en/blog/introduction.html</link>
+    <author>runner@fv-az1249-571 (nil)</author>
+    <guid isPermaLink="false">https://richarddavis.xyz/en/blog/introduction.html</guid>
     <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
 
     <description><![CDATA[<p>
