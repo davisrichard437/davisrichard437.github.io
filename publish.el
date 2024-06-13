@@ -167,6 +167,7 @@ PROJECT is the current project."
              :rss-extension "xml"
              :html-link-use-abs-url t
              :html-link-org-files-as-html t
+             :html-link-home (format "https://%s/en/blog/" tld)
              :auto-sitemap t
              :sitemap-filename "rss.org" ; write intermediate rss.org
              :sitemap-title "Richard Davis, Composer"
