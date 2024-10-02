@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-10-02 Wed 22:29 -->
+<!-- 2024-10-02 Wed 22:44 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>LilyPond Files as Functions</title>
@@ -298,9 +298,9 @@ That's where this post comes in.
 I've developed a fun workaround that allows for calling a function-like object and getting back something that is not strictly music.
 </p>
 
-<div id="outline-container-org62d5d9c" class="outline-2">
-<h2 id="org62d5d9c">Explanation</h2>
-<div class="outline-text-2" id="text-org62d5d9c">
+<div id="outline-container-org4b36087" class="outline-2">
+<h2 id="org4b36087">Explanation</h2>
+<div class="outline-text-2" id="text-org4b36087">
 <p>
 This workaround uses the <code>\include</code> functionality to treat a file like a function.
 Files on their own don't take parameters, but it is possible to make them behave like they do.
@@ -311,9 +311,9 @@ These parameters can easily be redefined and the file can be called again with n
 </div>
 </div>
 
-<div id="outline-container-org6860804" class="outline-2">
-<h2 id="org6860804">Example</h2>
-<div class="outline-text-2" id="text-org6860804">
+<div id="outline-container-org45b6186" class="outline-2">
+<h2 id="org45b6186">Example</h2>
+<div class="outline-text-2" id="text-org45b6186">
 <p>
 When working with multi-movement pieces, which have a <code>\score</code> block for each movement, the <code>\score</code> is the most pressing thing to have a function for, and it is the reason I developed this workaround.
 In a piece, I'm working on right now, the score for each movement looks something like this:
@@ -376,9 +376,9 @@ Excluding comments and blank lines, the score for each movement is six lines lon
 </div>
 </div>
 
-<div id="outline-container-orgaff7cab" class="outline-2">
-<h2 id="orgaff7cab">Conclusion</h2>
-<div class="outline-text-2" id="text-orgaff7cab">
+<div id="outline-container-org29171ad" class="outline-2">
+<h2 id="org29171ad">Conclusion</h2>
+<div class="outline-text-2" id="text-org29171ad">
 <p>
 In developing an engraving workflow in LilyPond, I imagine the most important area to focus my efforts will be these creative ways to minimize repetition and to streamline the writing process.
 Someday I'll hopefully have it down to a science, but in the meantime, if any readers have any tips or tricks they'd like to share, I'd love to hear about them via email at <a href="mailto:davisrichard437@gmail.com">davisrichard437@gmail.com</a>! 
@@ -387,7 +387,7 @@ Someday I'll hopefully have it down to a science, but in the meantime, if any re
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="copyright">© Richard Davis, 2024-10-02 Wed 22:29</p>
+<p class="copyright">© Richard Davis, 2024-10-02 Wed 22:44</p>
 </div>
 </body>
 </html>
