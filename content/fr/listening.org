@@ -13,7 +13,8 @@
 ** Till This Moment (2023)
 
 "Till This Moment" est une pièce pour voix et électronique en direct qui adapte les chapitres cruciaux d'Orgueil et Préjugés de Jane Austen - la lettre de M. Darcy et la réaction d'Elizabeth Bennet à cette lettre.
-En lisant cette lettre, Elizabeth est confrontée à des informations incompatibles avec sa vision actuelle du monde. Elle en nie d'abord le contenu, puis l'examine plus attentivement, et enfin en comprend la vérité, ce qui fait d'elle une personne transformée et améliorée.
+En lisant cette lettre, Elizabeth est confrontée à des informations incompatibles avec sa vision actuelle du monde.
+Elle en nie d'abord le contenu, puis l'examine plus attentivement, et enfin en comprend la vérité, ce qui fait d'elle une personne transformée et améliorée.
 Le format mixte permet de construire une dichotomie dramatique entre les représentations de la volonté consciente d'Elizabeth, telles qu'elles sont présentées par l'interprète, et celles des forces exercées sur elle par son personnage, ses pairs et le récit - en un mot, son âme - qui se reflètent dans l'électronique. 
 
 Chanteuse : Dani Claxton
@@ -54,6 +55,28 @@ Achetez la partition et le texte d'accompagnement ici :
 
 * Composition
 
+** The Widow (2024)
+
+« The Widow » est un opéra miniature qui se déroule au Cap-Breton au début du XXe siècle et raconte l'histoire d'une femme sur son lit de mort qui se souvient de la mort de ses deux fils dans le tumulte général de l'époque.
+Le premier, Harry, était une figure de proue de la grève des mineurs du Cap-Breton contre la British Empire Steel Company (BESCO).
+Lors d'une altercation entre les grévistes et la police, Harry a tiré sur un policier et a été pendu pour cela.
+Le second, Thomas, a été enrôlé pour combattre pendant la Première Guerre mondiale et a été tué quelque part en France.
+L'opéra raconte l'histoire de cette veuve qui surmonte sa propre culpabilité et rejette la responsabilité de la tragédie sur ses épaules, en terminant par un réquisitoire cinglant à l'encontre du capital et de ses institutions.
+Tout au long de l'œuvre, la musique cherche à dépeindre la progression émotionnelle interne de la veuve, à travers diverses permutations de trois états primaires : l'amour pour ses fils, la tristesse de leur mort et la colère contre les responsables.
+La musique passe d'un état à l'autre, tout comme le flux de conscience de la veuve, afin d'impliquer véritablement le public dans ce processus de découverte.
+
+Exécuté le 18 août 2024 :
+- La veuve : Rosalind Hurwitz
+- Piano : Ria Kim
+
+{{{yt(RiVhPilFaDk)}}}
+
+Achetez la partition ici :
+
+#+begin_export html
+<a href="https://payhip.com/b/1A9Xj" class="payhip-buy-button" data-theme="grey" data-product="1A9Xj">Acheter</a>
+#+end_export
+
 ** ōdī et amō (2024)
 
 Cette œuvre tire son nom du poème qui constitue le sujet du septième et dernier mouvement : "ōdī et amō", le quatre-vingt-cinquième des /Carmina/ du poète latin classique Gaius Valerius Catullus.
@@ -72,6 +95,12 @@ Commençant à un extrême instrumental, chaque mouvement successif est plus lyr
 Exécuté le dimanche 31 mars 2024 par mes soins.
 
 {{{yt(2-0b_wxcztg)}}}
+
+Achetez la partition ici :
+
+#+begin_export html
+<a href="https://payhip.com/b/RGeFs" class="payhip-buy-button" data-theme="grey" data-product="RGeFs">Acheter</a>
+#+end_export
 
 ** Variations on an Excerpt (2022)
 

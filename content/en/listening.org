@@ -54,6 +54,28 @@ Purchase the score and a text companion here:
 
 * Composition
 
+** The Widow (2024)
+
+"The Widow" is a miniature opera set in early twentieth-century Cape Breton, and tells the story of a woman on her deathbed recalling how her two sons died in the general tumult at the time.
+The first, Harry, was a leading figure in the Cape Breton miners' strike against the British Empire Steel Company (BESCO).
+In an altercation between the striking workers and police, Harry shot a police officer and was hanged for it.
+The second, Thomas, was conscripted to fight in World War I, and was killed somewhere in France.
+The opera tells the story of this widow overcoming her self-blame and laying the responsibility for the tragedy squarely where it belongs, ending with a scathing indictment of capital and its institutions.
+Throughout, the music seeks to portray her internal emotional progression, through various permutations of three primary states: love for her sons, sadness at their deaths, and anger at those responsible.
+The music shifts between these states as does the widow's stream of consciousness, so as to truly involve the audience in this process of discovery.
+
+Performed August 18, 2024:
+- The widow: Rosalind Hurwitz
+- Piano: Ria Kim
+
+{{{yt(RiVhPilFaDk)}}}
+
+Purchase the score here:
+
+#+begin_export html
+<a href="https://payhip.com/b/ijKI7" class="payhip-buy-button" data-theme="grey" data-product="ijKI7">Buy Now</a>
+#+end_export
+
 ** ōdī et amō (2024)
 
 This work takes its name from the poem which is the subject of the seventh and final movement: "ōdī et amō," the eighty-fifth of the /Carmina/ by Classical Latin poet Gaius Valerius Catullus.
@@ -72,6 +94,12 @@ Beginning at an instrumental extreme, each successive movement is more lyrical t
 Performed Sunday, March 31, 2024 by me.
 
 {{{yt(2-0b_wxcztg)}}}
+
+Purchase the score here:
+
+#+begin_export html
+<a href="https://payhip.com/b/RGeFs" class="payhip-buy-button" data-theme="grey" data-product="RGeFs">Buy Now</a>
+#+end_export
 
 ** Variations on an Excerpt (2022)
 
