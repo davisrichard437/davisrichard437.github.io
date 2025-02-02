@@ -3,14 +3,14 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-12-12 Thu 21:36 -->
+<!-- 2025-02-02 Sun 19:45 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Linked List Music</title>
-<meta name="generator" content="Org mode" />
 <meta name="author" content="Richard Davis" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -31,8 +31,9 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -40,22 +41,22 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
-    padding-top: 1.2em;
+    overflow: auto;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 12px;
     padding: 3px;
-    border: 1px solid black;
+    color: #555;
+    background-color: #f2f2f299;
   }
-  pre.src:hover:before { display: inline;}
+  pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -190,8 +191,7 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { width: 90%; }
-  /*]]>*/-->
+  .org-svg { }
 </style>
 <link href="/styles/org.css" rel="stylesheet" />
 <link href="/styles/style.css" rel="stylesheet" />
@@ -199,55 +199,9 @@
 <link rel="alternate" type="application/rss+xml" title="Blog RSS Feed" href="/en/blog/rss.xml">
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
-<script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2020 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
-<!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
-</script>
 </head>
 <body>
-<div id="content">
+<div id="content" class="content">
 <h1 class="title">Linked List Music
 <br />
 <span class="subtitle">Richard Davis, Blog</span>
@@ -293,9 +247,9 @@ Only very rarely do the two meet, as they did in a recent piece I wrote.
 In this post I'll talk a little bit about a piece I wrote based on the concept of a linked list.
 </p>
 
-<div id="outline-container-org24ca554" class="outline-2">
-<h2 id="org24ca554">Listening</h2>
-<div class="outline-text-2" id="text-org24ca554">
+<div id="outline-container-orgadda49c" class="outline-2">
+<h2 id="orgadda49c">Listening</h2>
+<div class="outline-text-2" id="text-orgadda49c">
 <p>
 I got to play this piece myself, which posed a lot of interesting challenges.
 Here's a video of the concert; give it a listen and then keep reading!
@@ -305,9 +259,9 @@ Here's a video of the concert; give it a listen and then keep reading!
 </div>
 </div>
 
-<div id="outline-container-orgf824243" class="outline-2">
-<h2 id="orgf824243">Program Note</h2>
-<div class="outline-text-2" id="text-orgf824243">
+<div id="outline-container-orgbcd3ca6" class="outline-2">
+<h2 id="orgbcd3ca6">Program Note</h2>
+<div class="outline-text-2" id="text-orgbcd3ca6">
 <p>
 The linked list aspect of the piece may be hard to hear at first, especially when you don't know what scale you're listening at.
 I'll reproduce the entire program note here, to hopefully shed some light on the concept.
@@ -341,9 +295,9 @@ It may need one slight addendum for my tech friends: a movement of a multi-movem
 </div>
 </div>
 
-<div id="outline-container-org47bad97" class="outline-2">
-<h2 id="org47bad97">Details</h2>
-<div class="outline-text-2" id="text-org47bad97">
+<div id="outline-container-orged75720" class="outline-2">
+<h2 id="orged75720">Details</h2>
+<div class="outline-text-2" id="text-orged75720">
 <p>
 In order to concretely understand how this piece is structured like a linked list, we must first understand the nature of the "item," or the main idea of each movement.
 From there, the "pointers" naturally fall into place.
@@ -394,9 +348,9 @@ There is no following movement, so this one ends with a "null" pointer, or a poi
 </div>
 </div>
 
-<div id="outline-container-org18d0ff6" class="outline-2">
-<h2 id="org18d0ff6">Conclusion</h2>
-<div class="outline-text-2" id="text-org18d0ff6">
+<div id="outline-container-org10b0a7f" class="outline-2">
+<h2 id="org10b0a7f">Conclusion</h2>
+<div class="outline-text-2" id="text-org10b0a7f">
 <p>
 I had a lot of fun writing this piece!
 I hope you had just as much fun listening to it as I did writing it, and I hope that reading this helped it make some more sense.
@@ -419,7 +373,7 @@ I think it'll be fun!
   <a href="https://craftering.systemcrafters.net/@davisrichard437/next">→</a>
 </div>
 <div class="org-center">
-  <p class="copyright">© Richard Davis, 2024-12-12 Thu 21:36</p>
+  <p class="copyright">© Richard Davis, 2025-02-02 Sun 19:45</p>
 </div>
 </div>
 </body>
