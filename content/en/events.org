@@ -10,11 +10,34 @@
 :CUSTOM_ID: events-upcoming
 :END:
 
-Nothing at the moment!
+** /Elissa/ Premiere <2025-03-22 Sat 15:00>
+
+I will be performing in the premiere of my Master's thesis piece, /Elissa/, a monodrama for string quartet and soprano based on Vergil's /Aeneid/.
+
+/Elissa/ retells the Dido and Aeneas story from Vergil's /Aeneid/ in a musical "stream of consciousness."
+The audience experiences events as Dido does, following the unique twists and turns of her conscious and subconscious mind.
+The conscious internal monologue is presented by the soprano, who sings text adapted from fragments of the original Latin /Aeneid/.
+And on the other hand, the quartet presents music whose sensations mimic those of Dido's subconscious, emotional progression.
+The work follows Dido as she meets Aeneas, falls in love with him, is betrayed by him, and comes to despise him.
+/Elissa/ presents one particular view into the archetypal story of a relationship coming together and falling apart.
+
+** DCS Concert <2025-04-17 Thu>
+
+I will be premiering a work for solo viola and live electronics by Harrison Brooks at the upcoming Digital Composition Studio Class Concert.
 
 * Recent
 
-** DCS Concert <2023-04-14 Fri 15:00>
+** ViU Concert <2025-01-25 Sat 19:30>
+
+I will be performing "Shards of Bengaluru Bill," a work for small ensemble by Alex Bridger, at the upcoming concert of Le Vivier Interuniversitaire.
+
+** Opera from Scratch Concert <2024-08-18 Sat>
+
+Rosalind Hurwitz will be performing my miniature opera, "The Widow," at the final concert of Vocalypse's Opera from Scratch intensive.
+
+"The Widow" is a miniature opera set in early twentieth-century Cape Breton, and tells the story of a woman on her deathbed recalling how her two sons died in the general tumult at the time. The first, Harry, was a leading figure in the Cape Breton miners' strike against the British Empire Steel Company (BESCO). In an altercation between the striking workers and police, Harry shot a police officer and was hanged for it. The second, Thomas, was conscripted to fight in World War I, and was killed somewhere in France. The opera tells the story of this widow overcoming her self-blame and laying the responsibility for the tragedy squarely where it belongs, ending with a scathing indictment of capital and its institutions. Throughout, the music seeks to portray her internal emotional progression, through various permutations of three primary states: love for her sons, sadness at their deaths, and anger at those responsible. The music shifts between these states as does the widow's stream of consciousness, so as to truly involve the audience in this process of discovery. 
+
+** COMMENT DCS Concert <2023-04-14 Fri 15:00>
 
 Dani Claxton will be performing my work "Till this Moment" for solo vocalist and electronics at the upcoming Digital Composition Studio's Class Concert.
 
@@ -22,7 +45,7 @@ Dani Claxton will be performing my work "Till this Moment" for solo vocalist and
 In reading this letter, Elizabeth is confronted with information incompatible with her current worldview, first denying its contents, then considering it more carefully, and finally understanding its truth, ultimately leaving her a transformed and improved person.
 The mixed format enables the construction of a dramatic dichotomy between representations of Elizabeth's conscious will, as presented by the performer, and those of the forces exerted upon her by her character, her peers, and the narrative---in a word, her soul---which are reflected within the electronics.
 
-** MASC Concert <2023-03-19 Sun 20:00>
+** COMMENT MASC Concert <2023-03-19 Sun 20:00>
 
 My 2019 solo clarinet work "One need not be a Chamber" will be performed by clarinetist Alexander Ortins and narrated by Dani Claxton at the McGill Association of Student Composers' [[https://www.mcgill.ca/music/channels/event/mcgill-association-student-composers-concert-342228][Winter Concert]].
 

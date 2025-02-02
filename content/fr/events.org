@@ -10,11 +10,34 @@
 :CUSTOM_ID: events-upcoming
 :END:
 
-Rien pour le moment !
+** Première d'Elissa <2025-03-22 Sat 15:00>
+
+Je participerai à la première de ma thèse de maîtrise, /Elissa/, un monodrame pour quatuor à cordes et soprano basé sur l'Enéide de Vergile.
+
+/Elissa/ raconte l'histoire de Didon et Énée, tirée de l'Énéide de Vergile, sous la forme d'un « flux de conscience » musical.
+Le public vit les événements comme Didon, en suivant les tours et détours uniques de son esprit conscient et subconscient.
+Le monologue interne conscient est présenté par la soprano, qui chante un texte adapté de fragments de l'Énéide originale en latin.
+D'autre part, le quatuor présente une musique dont les sensations imitent celles de la progression émotionnelle subconsciente de Didon.
+L'œuvre suit Didon lorsqu'elle rencontre Énée, tombe amoureuse de lui, est trahie par lui et en vient à le mépriser.
+L'œuvre /Elissa/ présente un point de vue particulier sur l'histoire archétypale d'une relation qui se noue et se dénoue.
+
+** Concert du DCS <2025-04-17 Thu>
+
+Je vais interpréter une œuvre pour alto solo et électronique en direct de Harrison Brooks lors du prochain concert de la classe Digital Composition Studio.
 
 * Récents
 
-** Concert du DCS <2023-04-14 Fri 15:00>
+** Concert du ViU <2025-01-25 Sat 19:30>
+
+Je vais interpréter « Shards of Bengaluru Bill », une œuvre pour petit ensemble d'Alex Bridger, lors du prochain concert du Vivier Interuniversitaire.
+
+** Concert « Opera from Scratch » <2024-08-18 Sat>
+
+Rosalind Hurwitz interprétera mon opéra miniature « The Widow » lors du dernier concert du programme intensif « Opera from Scratch » de Vocalypse.
+
+« The Widow » est un opéra miniature qui se déroule au Cap-Breton au début du XXe siècle et qui raconte l'histoire d'une femme sur son lit de mort qui se souvient que ses deux fils sont morts dans le tumulte général de l'époque. Le premier, Harry, était une figure de proue de la grève des mineurs du Cap-Breton contre la British Empire Steel Company (BESCO). Lors d'une altercation entre les grévistes et la police, Harry a tiré sur un policier et a été pendu pour cela. Le second, Thomas, a été enrôlé pour combattre pendant la Première Guerre mondiale et a été tué quelque part en France. L'opéra raconte l'histoire de cette veuve qui surmonte sa propre culpabilité et porte la responsabilité de la tragédie là où elle se trouve, en terminant par un réquisitoire cinglant contre le capital et ses institutions. Tout au long de l'œuvre, la musique cherche à dépeindre la progression émotionnelle interne de la veuve, à travers diverses permutations de trois états primaires : l'amour pour ses fils, la tristesse de leur mort et la colère contre les responsables. La musique passe d'un état à l'autre, tout comme le flux de conscience de la veuve, afin d'impliquer véritablement le public dans ce processus de découverte. 
+
+** COMMENT Concert du DCS <2023-04-14 Fri 15:00>
 
 Dani Claxton interprétera ma pièce "Till this Moment" pour voix solo et électronique lors du prochain concert de classe du Digital Composition Studio.
 
@@ -22,7 +45,7 @@ Dani Claxton interprétera ma pièce "Till this Moment" pour voix solo et élect
 En lisant cette lettre, Elizabeth est confrontée à des informations incompatibles avec sa vision actuelle du monde. Elle en nie d'abord le contenu, puis l'examine plus attentivement, et enfin en comprend la vérité, ce qui fait d'elle une personne transformée et améliorée.
 Le format mixte permet de construire une dichotomie dramatique entre les représentations de la volonté consciente d'Elizabeth, telles qu'elles sont présentées par l'interprète, et celles des forces exercées sur elle par son personnage, ses pairs et le récit - en un mot, son âme - qui se reflètent dans l'électronique.
 
-** Concert du MASC <2023-03-19 Sun 20:00>
+** COMMENT Concert du MASC <2023-03-19 Sun 20:00>
 
 Mon œuvre pour clarinette solo "One need not be a Chamber" sera interprétée en 2019 par le clarinettiste Alexander Ortins et narrée par Dani Claxton lors du concert d'hiver de l'Association des compositeurs étudiants de McGill [[https://www.mcgill.ca/music/channels/event/mcgill-association-student-composers-concert-342228][Winter Concert]].
 
