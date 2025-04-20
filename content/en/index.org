@@ -9,7 +9,7 @@
 
 #+INCLUDE: ./about.org::#press-introduction :only-contents t
 
-* Upcoming Events
+* COMMENT Upcoming Events
 
 #+INCLUDE: ./events.org::#events-upcoming :only-contents t
 

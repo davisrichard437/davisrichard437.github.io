@@ -10,6 +10,10 @@
 :CUSTOM_ID: events-upcoming
 :END:
 
+Nothing at the moment!
+
+* Recent
+
 ** /Elissa/ Premiere <2025-03-22 Sat 15:00>
 
 I will be performing in the premiere of my Master's thesis piece, /Elissa/, a monodrama for string quartet and soprano based on Vergil's /Aeneid/.
@@ -25,7 +29,6 @@ The work follows Dido as she meets Aeneas, falls in love with him, is betrayed b
 
 I will be premiering a work for solo viola and live electronics by Harrison Brooks at the upcoming Digital Composition Studio Class Concert.
 
-* Recent
 
 ** ViU Concert <2025-01-25 Sat 19:30>
 

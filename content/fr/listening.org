@@ -55,6 +55,28 @@ Achetez la partition et le texte d'accompagnement ici :
 
 * Composition
 
+** Vernunft (2025)
+
+Vernunft (« Raison ») est une pièce d'accompagnement de la quatrième Suite pour violoncelle seul de Bach, à jouer directement avant le Prélude, sans pause.
+Vernunft explore le matériau musical de la suite, et en particulier celui du prélude, en marginalisant le premier plan et en centrant l'arrière-plan.
+L'œuvre porte le titre Vernunft en hommage à la catégorie de pensée de Hegel : "La bataille de la raison," dit-il, "est la lutte pour briser la rigidité à laquelle l'entendement a tout réduit."
+En d'autres termes, la raison s'efforce de dépasser la banalité de l'observation neutre, de comprendre les forces en jeu sous la surface et de saisir l'essence de la chose.
+Le même processus est à l'œuvre dans Vernunft.
+Les sons disparates et discontinus de l'ouverture sont tous décomposés, compris et subsumés en un discours cohérent à la fin.
+De plus, Vernunft se base sur les processus structurels sous-jacents du prélude, en rejetant ses détails accidentels et superficiels.
+Ainsi, bien que son langage musical et les détails de ses processus diffèrent, Vernunft présente une image déformée du Prélude de Bach qui sert à recadrer et à recontextualiser la suite.
+
+Exécuté le 15 avril 2025 :
+- Violoncelle : Sointu Aalto
+
+{{{yt(zZtnzEuQ4Zs)}}}
+
+Achetez la partition ici :
+
+#+begin_export html
+<a href="https://payhip.com/b/HzDZI" class="payhip-buy-button" data-theme="grey" data-product="ijKI7">Acheter</a>
+#+end_export
+
 ** The Widow (2024)
 
 « The Widow » est un opéra miniature qui se déroule au Cap-Breton au début du XXe siècle et raconte l'histoire d'une femme sur son lit de mort qui se souvient de la mort de ses deux fils dans le tumulte général de l'époque.

@@ -54,6 +54,28 @@ Purchase the score and a text companion here:
 
 * Composition
 
+** Vernunft (2025)
+
+Vernunft ("Reason") is a companion piece to the fourth Suite for Solo Cello by Bach, to be played directly before the Prelude without pause.
+Vernunft explores the musical material of the suite, and particularly those of the Prelude, marginalizing the foreground and centering the background.
+The work bears the title Vernunft in homage to Hegel's category of thinking: "The battle of reason," he says, "is the struggle to break up the rigidity to which the understanding has reduced everything."
+In other words, reason strives to move past the banality of neutral observation, to understand the forces at play beneath the surface, and to grasp the essence of the thing.
+The same process is at play in Vernunft.
+The disparate, discontinuous sounds of the opening are each broken down, understood, and subsumed into a coherent discourse in the end.
+And furthermore, Vernunft bases itself on the underlying structural processes of the Prelude, discarding its accidental, surface-level details.
+Thus, though its musical language and the minutiae of its processes differ, Vernunft presents a distorted mirror image of Bach's Prelude that serves to reframe and recontextualize the suite.
+
+Performed April 15, 2025:
+- Cello: Sointu Aalto
+
+{{{yt(zZtnzEuQ4Zs)}}}
+
+Purchase the score here:
+
+#+begin_export html
+<a href="https://payhip.com/b/HzDZI" class="payhip-buy-button" data-theme="grey" data-product="ijKI7">Buy Now</a>
+#+end_export
+
 ** The Widow (2024)
 
 "The Widow" is a miniature opera set in early twentieth-century Cape Breton, and tells the story of a woman on her deathbed recalling how her two sons died in the general tumult at the time.

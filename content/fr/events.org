@@ -10,6 +10,10 @@
 :CUSTOM_ID: events-upcoming
 :END:
 
+Rien pour l'instant !
+
+* Récents
+
 ** Première d'Elissa <2025-03-22 Sat 15:00>
 
 Je participerai à la première de ma thèse de maîtrise, /Elissa/, un monodrame pour quatuor à cordes et soprano basé sur l'Enéide de Vergile.
@@ -25,7 +29,6 @@ L'œuvre /Elissa/ présente un point de vue particulier sur l'histoire archétyp
 
 Je vais interpréter une œuvre pour alto solo et électronique en direct de Harrison Brooks lors du prochain concert de la classe Digital Composition Studio.
 
-* Récents
 
 ** Concert du ViU <2025-01-25 Sat 19:30>
 
